@@ -1,11 +1,11 @@
 @include('header')
 <header class="site-content-page-header"
-    style="background-image: url(https://jobhunt.madrasthemes.com/wp-content/uploads/2018/09/home-bg.jpg);">
+    style="background: url(/img/listado-de-empresas.jpg) center center no-repeat fixed">
     <div class="site-content-page-header-inner">
         <div class="job-search-block">
             <div class="section-header">
-                <h3 class="section-title">The Easiest Way to Get Your New Job</h3>
-                <span class="section-sub-title">Find Jobs, Employment &amp; Career Opportunities</span>
+                <h1 class="section-title">{{ $empresa->denominacion }}</h1>
+                <h2 class="section-sub-title">{{ $empresa->actividad_cnae }}</h2>
             </div>
             <div class="job-search-form">
                 <form method="GET" action="/empresas/">

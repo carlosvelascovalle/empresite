@@ -1,6 +1,6 @@
 @include('header')
 <header class="site-content-page-header"
-    style="background: url(./img/listado-de-empresas.jpg) center center no-repeat fixed">
+    style="background: url(/img/listado-de-empresas.jpg) center center no-repeat fixed">
     <div class="site-content-page-header-inner">
         <div class="job-search-block">
             <div class="section-header">
