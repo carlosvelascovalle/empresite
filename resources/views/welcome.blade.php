@@ -1,4 +1,4 @@
-@include('header')
+@include('headerindex')
 
 
 <div id="content" class="site-content" tabindex="-1">

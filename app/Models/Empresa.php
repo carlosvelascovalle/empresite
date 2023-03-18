@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Empresa extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'cif',
         'denominacion',
@@ -39,14 +38,5 @@ class Empresa extends Model
     public function scopeSearchByCif($query, $search)
     {
         return $query->where('cif', 'like', '%' . $search . '%');
-    }
-
-    public function getUrlAttribute(): string
-    {
-        return route('empresas.show', ['slug' => $this->denominacion]);
-    }
-    public function getSlugAttribute(): string
-    {
-        return $this->denominacion;
     }
 }

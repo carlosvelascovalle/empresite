@@ -1,4 +1,4 @@
-@include('header')
+@include('headerindex')
 <div id="content" class="site-content" tabindex="-1">
     <div class="container">
         <div class="site-content-inner">
@@ -7,9 +7,10 @@
                 <main id="main" class="site-main">
                     <ul id="jh-scroll-here" class="job_listings list-classic">
                         @foreach ($empresas as $empresa)
+                            @php($slug = Str::slug($empresa->denominacion, '-', 'es'))
                             <li class="post-61 job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_category-information-technology job_listing_type-full-time job_listing_salary-5000-10000 job_listing_career_level-lead job_listing_experience-6-7-years job_listing_gender-male job_listing_industry-information-technology job_listing_qualification-bachelor-degree job-type-full-time job_position_featured"
                                 data-longitude="48.379433" data-latitude="31.1655799">
-                                <a href="https://jobhunt.madrasthemes.com/job/networking-engineer/">
+                                <a href="/empresa/{{ $slug }}">
                                     <div class="job-listing-company-logo"><img class="company_logo"
                                             src="https://jobhunt.madrasthemes.com/wp-content/uploads/2018/07/2.png"
                                             alt="GUXOFT"></div>
