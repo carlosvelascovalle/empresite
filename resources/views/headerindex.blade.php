@@ -10,16 +10,15 @@
             <div class="job-search-form">
                 <form method="GET">
                     <div class="job-search-keywords">
-                        <label class="sr-only" for="search_keywords">Keywords</label>
-                        <input type="text" id="search_keywords" name="search_keywords"
+                        <label class="sr-only" for="search">Keywords</label>
+                        <input type="text" id="search" name="search"
                             placeholder="Job title, keywords or company name" class="ui-autocomplete-input"
-                            autocomplete="off" value="{{ $search_keywords }}">
+                            autocomplete="off" value="{{ $search }}">
                     </div>
                     <div class="job-search-submit">
                         <button type="submit" value="Search"><i class="la la-search"></i><span
                                 class="job-search-text">Search</span></button>
                     </div>
-                    <input type="hidden" name="post_type" value="job_listing">
                 </form>
             </div>
         </div>

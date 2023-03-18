@@ -17,25 +17,39 @@ class EmpresasController extends Controller
             'empresas' => \DB::table('empresas')->orderBy('denominacion')->cursorPaginate(15)->fragment('empresas')
         ]);
     }*/
-    public function index()
+    public function index(Request $request)
     {
         //buscar por cualquier campo
-        $search_keywords = request('search_keywords');
-        $all = Empresa::where('denominacion', 'like', '%' . $search_keywords . '%')->orWhere('cif', 'like', '%' . $search_keywords . '%')
-            ->orWhere('localidad', 'like', '%' . $search_keywords . '%')
-            ->orWhere('provincia', 'like', '%' . $search_keywords . '%')
-            ->orWhere('actividad_cnae', 'like', '%' . $search_keywords . '%')
-            ->orWhere('forma_juridica', 'like', '%' . $search_keywords . '%')
-            ->orWhere('objeto_social', 'like', '%' . $search_keywords . '%')->orderBy('denominacion', 'asc');
+        $search = $request->get('search');
+        $all = Empresa::where('denominacion', 'like', '%' . $search . '%')
+            ->orWhere('cif', 'like', '%' . $search . '%')
+            ->orWhere('localidad', 'like', '%' . $search . '%')
+            ->orWhere('provincia', 'like', '%' . $search . '%')
+            ->orWhere('actividad_cnae', 'like', '%' . $search . '%')
+            ->orWhere('forma_juridica', 'like', '%' . $search . '%')
+            ->orWhere('objeto_social', 'like', '%' . $search . '%')->orderBy('denominacion', 'asc');
         $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas');
-        return view('empresas.index', compact('empresas', 'search_keywords', 'all'));
+        return view('empresas.index')
+            ->with('empresas', $empresas)
+            ->with('all', $all)
+            ->with('search', $search);
     }
 
-    public function show($denominacion)
+    public function show($denominacion, Request $request)
     {
         $empresa = Empresa::where('denominacion', str_replace('-', ' ', $denominacion))->firstOrFail();
-        //return view('empresas.show', compact('empresa'));
-        //$empresa = Empresa::where('denominacion', $slug)->firstOrFail();
-        return view('empresas.show', compact('empresa'));
+        //buscar por cualquier campo
+        $search = $request->get('search');
+        $all = Empresa::where('denominacion', 'like', '%' . $search . '%')
+            ->orWhere('cif', 'like', '%' . $search . '%')
+            ->orWhere('localidad', 'like', '%' . $search . '%')
+            ->orWhere('provincia', 'like', '%' . $search . '%')
+            ->orWhere('actividad_cnae', 'like', '%' . $search . '%')
+            ->orWhere('forma_juridica', 'like', '%' . $search . '%')
+            ->orWhere('objeto_social', 'like', '%' . $search . '%')->orderBy('denominacion', 'asc');
+        $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas');
+        return view('empresas.show')
+            ->with('empresa', $empresa)
+            ->with('search', $search);
     }
 }
