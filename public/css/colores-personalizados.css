@@ -1,0 +1,10 @@
+.job-type.cantabria {
+    color: red;
+    border-color: red;
+    background-color: white;
+}
+.job-type.cantabria:hover {
+    color: white;
+    border-color: red;
+    background-color: red;
+}

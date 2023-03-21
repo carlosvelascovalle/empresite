@@ -9,7 +9,7 @@
                         @foreach ($empresas as $empresa)
                             <li class="post-61 job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_category-information-technology job_listing_type-full-time job_listing_salary-5000-10000 job_listing_career_level-lead job_listing_experience-6-7-years job_listing_gender-male job_listing_industry-information-technology job_listing_qualification-bachelor-degree job-type-full-time job_position_featured"
                                 data-longitude="48.379433" data-latitude="31.1655799">
-                                <a href="/empresa/{{$empresa->slug}}">
+                                <a href="/empresa/{{ $empresa->slug }}">
                                     <div class="job-details">
                                         <div class="job-details-inner">
                                             <h3 class="job-listing-loop-job__title">{{ $empresa->denominacion }}</h3>
@@ -23,7 +23,7 @@
                                         </div>
                                         <div class="job-listing-meta meta">
                                             <ul class="job-types">
-                                                <li class="job-type full-time">
+                                                <li class="job-type full-time {{ $empresa->provincia }}">
                                                     {{ $empresa->provincia }} </li>
                                             </ul><span class="job-published-date date"><time
                                                     datetime="2022-11-18">Antiguedad:
