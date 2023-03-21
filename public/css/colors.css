@@ -426,7 +426,7 @@ button[name="woocommerce_checkout_place_order"],
 .job-list-tab-section .nav-tabs .nav-link.active,
 .contact-form input[type="submit"],
 .page-template-template-homepage-v4 .job-search-block form button,
-.page-template-template-homepage-v5 .job-search-block .job-search-submit button,
+.page-template-template-homepage-v5 .job-search-submit button,
 .page-template-template-homepage-v2
     .job-search-block
     form
@@ -1382,9 +1382,9 @@ article.post.post-password-required
     box-shadow: 0 0 0 0.2rem rgba(218, 35, 96, 0.5);
 }
 
-.header-search-icon .job-search-block .job-search-submit button,
-.job-search-block .job-search-submit button,
-.page-template-template-homepage-v3 .job-search-block .job-search-submit button,
+.header-search-icon .job-search-submit button,
+.job-search-submit button,
+.page-template-template-homepage-v3 .job-search-submit button,
 .header-search-icon .resume-search-block .resume-search-submit button,
 .page-template-template-homepage-v1
     .resume-search-block
@@ -1396,12 +1396,12 @@ article.post.post-password-required
     button,
 #submit-resume-form .ui-sortable .resume-manager-add-row,
 #submit-resume-form .field .resume-manager-add-row,
-.post-type-archive-job_listing .job-search-block .job-search-submit button {
+.post-type-archive-job_listing .job-search-submit button {
     color: #212529;
     background-color: #8b91dd;
     border-color: #8b91dd;
 }
-.header-search-icon .job-search-block .job-search-submit button:hover,
+.header-search-icon .job-search-submit button:hover,
 .page-template-template-homepage-v1
     .job-search-block
     .job-search-submit
@@ -1429,8 +1429,8 @@ article.post.post-password-required
     background-color: #fb236a;
     border-color: #fb236a;
 }
-.header-search-icon .job-search-block .job-search-submit button:focus,
-.header-search-icon .job-search-block .job-search-submit button.focus,
+.header-search-icon .job-search-submit button:focus,
+.header-search-icon .job-search-submit button.focus,
 .page-template-template-homepage-v1
     .job-search-block
     .job-search-submit
@@ -1482,8 +1482,8 @@ article.post.post-password-required
     border-color: #fb236a;
     box-shadow: 0 0 0 0.2rem rgba(123, 129, 194, 0.5);
 }
-.header-search-icon .job-search-block .job-search-submit button.disabled,
-.header-search-icon .job-search-block .job-search-submit button:disabled,
+.header-search-icon .job-search-submit button.disabled,
+.header-search-icon .job-search-submit button:disabled,
 .page-template-template-homepage-v1
     .job-search-block
     .job-search-submit
@@ -1859,7 +1859,7 @@ article.post.post-password-required
 }
 
 @media (max-width: 991.98px) {
-    .header-search-icon .job-search-block .job-search-submit button,
+    .header-search-icon .job-search-submit button,
     .page-template-template-homepage-v1
         .job-search-block
         .job-search-submit
@@ -1881,7 +1881,7 @@ article.post.post-password-required
         background-color: #232a79;
         border-color: #232a79;
     }
-    .header-search-icon .job-search-block .job-search-submit button:hover,
+    .header-search-icon .job-search-submit button:hover,
     .page-template-template-homepage-v1
         .job-search-block
         .job-search-submit
@@ -1903,8 +1903,8 @@ article.post.post-password-required
         background-color: #fb236a;
         border-color: #fb236a;
     }
-    .header-search-icon .job-search-block .job-search-submit button:focus,
-    .header-search-icon .job-search-block .job-search-submit button.focus,
+    .header-search-icon .job-search-submit button:focus,
+    .header-search-icon .job-search-submit button.focus,
     .page-template-template-homepage-v1
         .job-search-block
         .job-search-submit
@@ -1944,8 +1944,8 @@ article.post.post-password-required
         border-color: #fb236a;
         box-shadow: 0 0 0 0.2rem rgba(68, 74, 141, 0.5);
     }
-    .header-search-icon .job-search-block .job-search-submit button.disabled,
-    .header-search-icon .job-search-block .job-search-submit button:disabled,
+    .header-search-icon .job-search-submit button.disabled,
+    .header-search-icon .job-search-submit button:disabled,
     .page-template-template-homepage-v1
         .job-search-block
         .job-search-submit
