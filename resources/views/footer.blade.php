@@ -14,9 +14,8 @@
                     </div>
                     <div id="text-1" class="widget widget_text">
                         <div class="textwidget">
-                            <address class="footer-contact">Collin Street West, Victor 8007,
-                                Australia.<br>
-                                +1 246-345-0695<br>
+                            <address class="footer-contact"><br>
+                                <br>
                                 <a href="mailto:info@jobhunt.com">info@empresite.org</a>
                             </address>
                         </div>
@@ -52,12 +51,12 @@
                             <ul id="menu-frequently-asked-questions-menu" class="menu">
                                 <li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-page">
                                     <div class="menu-item-inner"><a
-                                            href="https://jobhunt.madrasthemes.com/terms-and-conditions/">Politica
+                                            href="">Politica
                                             de Privacidad</a></div>
                                 </li>
                                 <li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page">
                                     <div class="menu-item-inner"><a
-                                            href="https://jobhunt.madrasthemes.com/terms-and-conditions/">Politica
+                                            href="">Politica
                                             de Cookies</a></div>
                                 </li>
                             </ul>

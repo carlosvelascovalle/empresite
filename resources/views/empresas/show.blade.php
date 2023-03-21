@@ -127,33 +127,10 @@
                                 </div>
                             </div>
                             <div class="single-job-listing__sidebar-area">
-                                <div class="single-job-listing-company company" style="border:none;">
-                                    <div class="single-job-listing-company__logo">
-                                        <img class="company_logo"
-                                            src="https://jobhunt.madrasthemes.com/wp-content/uploads/2018/07/2.png"
-                                            alt="GUXOFT">
-                                    </div>
 
-                                </div>
                                 <div class="job_application application">
                                     <div class="application_details" style="display: none;">
-                                        <p>To apply for this job <strong>email your details to</strong> <a
-                                                class="job_application_email"
-                                                href="mailto:Goxoft@demo.com?subject=Application%20via%20Networking%20Engineer%20listing%20on%20https%3A%2F%2Fjobhunt.madrasthemes.com">Goxoft@demo.com</a>
-                                        </p>
                                         <hr>
-                                        <form class="apply_with_resume" method="post"
-                                            action="https://jobhunt.madrasthemes.com/submit-resume/">
-                                            <p>You can apply to this job and others using your online
-                                                resume. Click the link below to submit your online resume
-                                                and email your application to this employer.</p>
-                                            <p>
-                                                <input type="submit"
-                                                    name="wp_job_manager_resumes_apply_with_resume_create"
-                                                    value="Submit Resume &amp; Apply">
-                                                <input type="hidden" name="job_id" value="61">
-                                            </p>
-                                        </form>
                                     </div>
                                 </div>
                             </div>

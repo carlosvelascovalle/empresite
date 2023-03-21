@@ -22,6 +22,7 @@ class Empresa extends Model
         'forma_juridica',
         'fecha_constitucion',
         'objeto_social',
+		'slug'
     ];
 
     public function scopeSearch($query, $search)

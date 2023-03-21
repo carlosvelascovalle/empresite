@@ -11,12 +11,6 @@ use Illuminate\Support\Str;
 
 class EmpresasController extends Controller
 {
-    /*public function index()
-    {
-        return view('empresas.index', [
-            'empresas' => \DB::table('empresas')->orderBy('denominacion')->cursorPaginate(15)->fragment('empresas')
-        ]);
-    }*/
     public function index(Request $request)
     {
         //buscar por cualquier campo
@@ -35,10 +29,9 @@ class EmpresasController extends Controller
             ->with('search', $search);
     }
 
-    public function show($denominacion, Request $request)
+    public function show($slug, Request $request)
     {
-        $empresa = Empresa::where('denominacion', str_replace('-', ' ', $denominacion))->firstOrFail();
-        //buscar por cualquier campo
+        $empresa = Empresa::where('slug',$slug)->firstOrFail();
         $search = $request->get('search');
         $all = Empresa::where('denominacion', 'like', '%' . $search . '%')
             ->orWhere('cif', 'like', '%' . $search . '%')
@@ -49,6 +42,7 @@ class EmpresasController extends Controller
             ->orWhere('objeto_social', 'like', '%' . $search . '%')->orderBy('denominacion', 'asc');
         $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas');
         return view('empresas.show')
+			->with('empresas', $empresas)
             ->with('empresa', $empresa)
             ->with('search', $search);
     }

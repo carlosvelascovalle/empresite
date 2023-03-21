@@ -33,7 +33,7 @@
                         <div class="container">
                             <div class="site-header-inner">
                                 <div class="site-branding">
-                                    <a href="" class="custom-logo-link" rel="home"
+                                    <a href="/" class="custom-logo-link" rel="home"
                                         style="font-size: 26px; font-weight: 800;
                                     font-style: italic;">
                                         EMPRESITE.ORG

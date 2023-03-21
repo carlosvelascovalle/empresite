@@ -12,7 +12,7 @@
                     <div class="job-search-keywords">
                         <label class="sr-only" for="search">Keywords</label>
                         <input type="text" id="search" name="search"
-                            placeholder="Job title, keywords or company name" class="ui-autocomplete-input"
+                            placeholder="Busca por CIF, Nombre de Empresa, localidad..." class="ui-autocomplete-input"
                             autocomplete="off" value="{{ $search }}">
                     </div>
                     <div class="job-search-submit">
