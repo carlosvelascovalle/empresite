@@ -360,7 +360,7 @@ article.post .cat-links a:focus,
     color: #8b91dd;
 }
 
-.page-template-template-homepage-v1 .job-search-block .section-sub-title,
+.job-search-block .section-sub-title,
 .page-template-template-homepage-v1 .resume-search-block .section-sub-title {
     color: #dadcf4;
 }
@@ -1383,7 +1383,7 @@ article.post.post-password-required
 }
 
 .header-search-icon .job-search-block .job-search-submit button,
-.page-template-template-homepage-v1 .job-search-block .job-search-submit button,
+.job-search-block .job-search-submit button,
 .page-template-template-homepage-v3 .job-search-block .job-search-submit button,
 .header-search-icon .resume-search-block .resume-search-submit button,
 .page-template-template-homepage-v1

@@ -18007,7 +18007,7 @@ p.job-manager-single-alert-link {
   .header-search-icon .resume-search-block {
     justify-content: center; } }
 
-.page-template-template-homepage-v1 .job-search-block > div,
+.job-search-block > div,
 .page-template-template-homepage-v1 .resume-search-block > div,
 .header-search-icon .job-search-block > div,
 .header-search-icon .resume-search-block > div {
@@ -18015,8 +18015,8 @@ p.job-manager-single-alert-link {
   max-width: 100%; }
 
 @media (min-width: 1200px) {
-  .page-template-template-homepage-v1 .job-search-block .job-search-form,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-form,
+  .job-search-block .job-search-form,
+  .job-search-block .resume-search-form,
   .page-template-template-homepage-v1 .resume-search-block .job-search-form,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-form,
   .header-search-icon .job-search-block .job-search-form,
@@ -18027,8 +18027,8 @@ p.job-manager-single-alert-link {
     width: auto;
     max-width: none; } }
 
-.page-template-template-homepage-v1 .job-search-block .browse-jobs-by-category,
-.page-template-template-homepage-v1 .job-search-block .browse-resumes-by-category,
+.job-search-block .browse-jobs-by-category,
+.job-search-block .browse-resumes-by-category,
 .page-template-template-homepage-v1 .resume-search-block .browse-jobs-by-category,
 .page-template-template-homepage-v1 .resume-search-block .browse-resumes-by-category,
 .header-search-icon .job-search-block .browse-jobs-by-category,
@@ -18038,19 +18038,19 @@ p.job-manager-single-alert-link {
   margin-top: 22px; }
 
 @media (min-width: 1200px) {
-  .page-template-template-homepage-v1 .job-search-block .section-title,
+  .job-search-block .section-title,
   .page-template-template-homepage-v1 .resume-search-block .section-title,
   .header-search-icon .job-search-block .section-title,
   .header-search-icon .resume-search-block .section-title {
     margin: 0; } }
 
-.page-template-template-homepage-v1 .job-search-block .section-header,
+.job-search-block .section-header,
 .page-template-template-homepage-v1 .resume-search-block .section-header,
 .header-search-icon .job-search-block .section-header,
 .header-search-icon .resume-search-block .section-header {
   margin-bottom: 30px; }
 
-.page-template-template-homepage-v1 .job-search-block form,
+.job-search-block form,
 .page-template-template-homepage-v1 .resume-search-block form,
 .header-search-icon .job-search-block form,
 .header-search-icon .resume-search-block form {
@@ -18059,12 +18059,12 @@ p.job-manager-single-alert-link {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 992px) {
-    .page-template-template-homepage-v1 .job-search-block form,
+    .job-search-block form,
     .page-template-template-homepage-v1 .resume-search-block form,
     .header-search-icon .job-search-block form,
     .header-search-icon .resume-search-block form {
       justify-content: center; } }
-  .page-template-template-homepage-v1 .job-search-block form > div,
+  .job-search-block form > div,
   .page-template-template-homepage-v1 .resume-search-block form > div,
   .header-search-icon .job-search-block form > div,
   .header-search-icon .resume-search-block form > div {
@@ -18073,15 +18073,15 @@ p.job-manager-single-alert-link {
     padding-right: 15px;
     padding-left: 15px; }
     @media (min-width: 992px) {
-      .page-template-template-homepage-v1 .job-search-block form > div,
+      .job-search-block form > div,
       .page-template-template-homepage-v1 .resume-search-block form > div,
       .header-search-icon .job-search-block form > div,
       .header-search-icon .resume-search-block form > div {
         flex: 0 0 auto;
         width: auto;
         max-width: none; } }
-  .page-template-template-homepage-v1 .job-search-block form input[type="text"],
-  .page-template-template-homepage-v1 .job-search-block form #search_category,
+  .job-search-block form input[type="text"],
+  .job-search-block form #search_category,
   .page-template-template-homepage-v1 .resume-search-block form input[type="text"],
   .page-template-template-homepage-v1 .resume-search-block form #search_category,
   .header-search-icon .job-search-block form input[type="text"],
@@ -18091,14 +18091,14 @@ p.job-manager-single-alert-link {
     height: 60px;
     padding: 14px 60px 14px 30px; }
   @media (min-width: 1200px) {
-    .page-template-template-homepage-v1 .job-search-block form #search_keywords,
+    .job-search-block form #search_keywords,
     .page-template-template-homepage-v1 .resume-search-block form #search_keywords,
     .header-search-icon .job-search-block form #search_keywords,
     .header-search-icon .resume-search-block form #search_keywords {
       min-width: 510px; } }
   @media (min-width: 1200px) {
-    .page-template-template-homepage-v1 .job-search-block form .job-search-location input[type="text"],
-    .page-template-template-homepage-v1 .job-search-block form .resume-search-location input[type="text"],
+    .job-search-block form .job-search-location input[type="text"],
+    .job-search-block form .resume-search-location input[type="text"],
     .page-template-template-homepage-v1 .resume-search-block form .job-search-location input[type="text"],
     .page-template-template-homepage-v1 .resume-search-block form .resume-search-location input[type="text"],
     .header-search-icon .job-search-block form .job-search-location input[type="text"],
@@ -18106,8 +18106,8 @@ p.job-manager-single-alert-link {
     .header-search-icon .resume-search-block form .job-search-location input[type="text"],
     .header-search-icon .resume-search-block form .resume-search-location input[type="text"] {
       min-width: 330px; } }
-  .page-template-template-homepage-v1 .job-search-block form input[type="text"]::-webkit-input-placeholder,
-  .page-template-template-homepage-v1 .job-search-block form #search_category,
+  .job-search-block form input[type="text"]::-webkit-input-placeholder,
+  .job-search-block form #search_category,
   .page-template-template-homepage-v1 .resume-search-block form input[type="text"]::-webkit-input-placeholder,
   .page-template-template-homepage-v1 .resume-search-block form #search_category,
   .header-search-icon .job-search-block form input[type="text"]::-webkit-input-placeholder,
@@ -18116,8 +18116,8 @@ p.job-manager-single-alert-link {
   .header-search-icon .resume-search-block form #search_category {
     font-size: 14px;
     color: #a7a7a7; }
-  .page-template-template-homepage-v1 .job-search-block form input[type="text"]::placeholder,
-  .page-template-template-homepage-v1 .job-search-block form #search_category,
+  .job-search-block form input[type="text"]::placeholder,
+  .job-search-block form #search_category,
   .page-template-template-homepage-v1 .resume-search-block form input[type="text"]::placeholder,
   .page-template-template-homepage-v1 .resume-search-block form #search_category,
   .header-search-icon .job-search-block form input[type="text"]::placeholder,
@@ -18128,8 +18128,8 @@ p.job-manager-single-alert-link {
     color: #a7a7a7; }
 
 @media (min-width: 992px) {
-  .page-template-template-homepage-v1 .job-search-block .job-search-keywords,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-keywords,
+  .job-search-block .job-search-keywords,
+  .job-search-block .resume-search-keywords,
   .page-template-template-homepage-v1 .resume-search-block .job-search-keywords,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-keywords,
   .header-search-icon .job-search-block .job-search-keywords,
@@ -18140,8 +18140,8 @@ p.job-manager-single-alert-link {
     flex-grow: 1;
     max-width: 100%; } }
 
-.page-template-template-homepage-v1 .job-search-block .job-search-keywords::after,
-.page-template-template-homepage-v1 .job-search-block .resume-search-keywords::after,
+.job-search-block .job-search-keywords::after,
+.job-search-block .resume-search-keywords::after,
 .page-template-template-homepage-v1 .resume-search-block .job-search-keywords::after,
 .page-template-template-homepage-v1 .resume-search-block .resume-search-keywords::after,
 .header-search-icon .job-search-block .job-search-keywords::after,
@@ -18165,8 +18165,8 @@ p.job-manager-single-alert-link {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
-.page-template-template-homepage-v1 .job-search-block .job-search-location::after,
-.page-template-template-homepage-v1 .job-search-block .resume-search-location::after,
+.job-search-block .job-search-location::after,
+.job-search-block .resume-search-location::after,
 .page-template-template-homepage-v1 .resume-search-block .job-search-location::after,
 .page-template-template-homepage-v1 .resume-search-block .resume-search-location::after,
 .header-search-icon .job-search-block .job-search-location::after,
@@ -18191,10 +18191,10 @@ p.job-manager-single-alert-link {
   font-smoothing: antialiased; }
 
 @media (max-width: 991.98px) {
-  .page-template-template-homepage-v1 .job-search-block .job-search-keywords,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-keywords,
-  .page-template-template-homepage-v1 .job-search-block .job-search-location,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-location,
+  .job-search-block .job-search-keywords,
+  .job-search-block .resume-search-keywords,
+  .job-search-block .job-search-location,
+  .job-search-block .resume-search-location,
   .page-template-template-homepage-v1 .resume-search-block .job-search-keywords,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-keywords,
   .page-template-template-homepage-v1 .resume-search-block .job-search-location,
@@ -18209,10 +18209,10 @@ p.job-manager-single-alert-link {
   .header-search-icon .resume-search-block .resume-search-location {
     margin-bottom: 20px; } }
 
-.page-template-template-homepage-v1 .job-search-block .job-search-keywords::after,
-.page-template-template-homepage-v1 .job-search-block .resume-search-keywords::after,
-.page-template-template-homepage-v1 .job-search-block .job-search-location::after,
-.page-template-template-homepage-v1 .job-search-block .resume-search-location::after,
+.job-search-block .job-search-keywords::after,
+.job-search-block .resume-search-keywords::after,
+.job-search-block .job-search-location::after,
+.job-search-block .resume-search-location::after,
 .page-template-template-homepage-v1 .resume-search-block .job-search-keywords::after,
 .page-template-template-homepage-v1 .resume-search-block .resume-search-keywords::after,
 .page-template-template-homepage-v1 .resume-search-block .job-search-location::after,
@@ -18234,8 +18234,8 @@ p.job-manager-single-alert-link {
   font-size: 30px; }
 
 @media (max-width: 991.98px) {
-  .page-template-template-homepage-v1 .job-search-block .job-search-category,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-category,
+  .job-search-block .job-search-category,
+  .job-search-block .resume-search-category,
   .page-template-template-homepage-v1 .resume-search-block .job-search-category,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-category,
   .header-search-icon .job-search-block .job-search-category,
@@ -18245,8 +18245,8 @@ p.job-manager-single-alert-link {
     margin-bottom: 20px; } }
 
 @media (min-width: 1200px) {
-  .page-template-template-homepage-v1 .job-search-block .job-search-category #search_category:focus,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-category #search_category:focus,
+  .job-search-block .job-search-category #search_category:focus,
+  .job-search-block .resume-search-category #search_category:focus,
   .page-template-template-homepage-v1 .resume-search-block .job-search-category #search_category:focus,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-category #search_category:focus,
   .header-search-icon .job-search-block .job-search-category #search_category:focus,
@@ -18255,8 +18255,8 @@ p.job-manager-single-alert-link {
   .header-search-icon .resume-search-block .resume-search-category #search_category:focus {
     background-color: #f9fafa; } }
 
-.page-template-template-homepage-v1 .job-search-block .job-search-submit,
-.page-template-template-homepage-v1 .job-search-block .resume-search-submit,
+.job-search-block .job-search-submit,
+.job-search-block .resume-search-submit,
 .page-template-template-homepage-v1 .resume-search-block .job-search-submit,
 .page-template-template-homepage-v1 .resume-search-block .resume-search-submit,
 .header-search-icon .job-search-block .job-search-submit,
@@ -18265,8 +18265,8 @@ p.job-manager-single-alert-link {
 .header-search-icon .resume-search-block .resume-search-submit {
   cursor: pointer; }
   @media (min-width: 992px) {
-    .page-template-template-homepage-v1 .job-search-block .job-search-submit,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit,
+    .job-search-block .job-search-submit,
+    .job-search-block .resume-search-submit,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit,
     .page-template-template-homepage-v1 .resume-search-block .resume-search-submit,
     .header-search-icon .job-search-block .job-search-submit,
@@ -18276,8 +18276,8 @@ p.job-manager-single-alert-link {
       flex: 0 0 auto;
       width: auto;
       max-width: none; } }
-  .page-template-template-homepage-v1 .job-search-block .job-search-submit button,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-submit button,
+  .job-search-block .job-search-submit button,
+  .job-search-block .resume-search-submit button,
   .page-template-template-homepage-v1 .resume-search-block .job-search-submit button,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-submit button,
   .header-search-icon .job-search-block .job-search-submit button,
@@ -18293,8 +18293,8 @@ p.job-manager-single-alert-link {
     justify-content: center;
     padding: 0; }
     @media (max-width: 991.98px) {
-      .page-template-template-homepage-v1 .job-search-block .job-search-submit button,
-      .page-template-template-homepage-v1 .job-search-block .resume-search-submit button,
+      .job-search-block .job-search-submit button,
+      .job-search-block .resume-search-submit button,
       .page-template-template-homepage-v1 .resume-search-block .job-search-submit button,
       .page-template-template-homepage-v1 .resume-search-block .resume-search-submit button,
       .header-search-icon .job-search-block .job-search-submit button,
@@ -18302,10 +18302,10 @@ p.job-manager-single-alert-link {
       .header-search-icon .resume-search-block .job-search-submit button,
       .header-search-icon .resume-search-block .resume-search-submit button {
         width: 100%; } }
-    .page-template-template-homepage-v1 .job-search-block .job-search-submit button:hover, .page-template-template-homepage-v1 .job-search-block .job-search-submit button:focus, .page-template-template-homepage-v1 .job-search-block .job-search-submit button:active,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit button:hover,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit button:focus,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit button:active,
+    .job-search-block .job-search-submit button:hover, .job-search-block .job-search-submit button:focus, .job-search-block .job-search-submit button:active,
+    .job-search-block .resume-search-submit button:hover,
+    .job-search-block .resume-search-submit button:focus,
+    .job-search-block .resume-search-submit button:active,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit button:hover,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit button:focus,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit button:active,
@@ -18327,8 +18327,8 @@ p.job-manager-single-alert-link {
       box-shadow: none !important;
       outline: none;
       border-width: 0; }
-  .page-template-template-homepage-v1 .job-search-block .job-search-submit i,
-  .page-template-template-homepage-v1 .job-search-block .resume-search-submit i,
+  .job-search-block .job-search-submit i,
+  .job-search-block .resume-search-submit i,
   .page-template-template-homepage-v1 .resume-search-block .job-search-submit i,
   .page-template-template-homepage-v1 .resume-search-block .resume-search-submit i,
   .header-search-icon .job-search-block .job-search-submit i,
@@ -18339,10 +18339,10 @@ p.job-manager-single-alert-link {
     font-size: 30px;
     line-height: 1; }
   @media (max-width: 991.98px) {
-    .page-template-template-homepage-v1 .job-search-block .job-search-submit .job-search-text,
-    .page-template-template-homepage-v1 .job-search-block .job-search-submit .resume-search-text,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit .job-search-text,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit .resume-search-text,
+    .job-search-block .job-search-submit .job-search-text,
+    .job-search-block .job-search-submit .resume-search-text,
+    .job-search-block .resume-search-submit .job-search-text,
+    .job-search-block .resume-search-submit .resume-search-text,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit .job-search-text,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit .resume-search-text,
     .page-template-template-homepage-v1 .resume-search-block .resume-search-submit .job-search-text,
@@ -18360,10 +18360,10 @@ p.job-manager-single-alert-link {
       font-size: 20px;
       margin-right: 10px; } }
   @media (min-width: 992px) {
-    .page-template-template-homepage-v1 .job-search-block .job-search-submit .job-search-text,
-    .page-template-template-homepage-v1 .job-search-block .job-search-submit .resume-search-text,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit .job-search-text,
-    .page-template-template-homepage-v1 .job-search-block .resume-search-submit .resume-search-text,
+    .job-search-block .job-search-submit .job-search-text,
+    .job-search-block .job-search-submit .resume-search-text,
+    .job-search-block .resume-search-submit .job-search-text,
+    .job-search-block .resume-search-submit .resume-search-text,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit .job-search-text,
     .page-template-template-homepage-v1 .resume-search-block .job-search-submit .resume-search-text,
     .page-template-template-homepage-v1 .resume-search-block .resume-search-submit .job-search-text,
