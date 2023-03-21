@@ -13,7 +13,6 @@
                                     <div class="job-listing-single-job__title-type">
                                         <h1 class="section-title" style="font-size: 32px;line-height: 1.5;">
                                             {{ $empresa->denominacion }}</h1>
-                                        <h2 class="section-sub-title">{{ $empresa->actividad_cnae }}</h2>
                                         <ul class="job-types">
                                             @if ($empresa->cif != '')
                                                 <li class="job-type full-time">
