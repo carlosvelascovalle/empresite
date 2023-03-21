@@ -1,9 +1,9 @@
-.job-type.cantabria {
+.provincia.cantabria {
     color: red;
     border-color: red;
     background-color: white;
 }
-.job-type.cantabria:hover {
+.provincia.cantabria:hover {
     color: white;
     border-color: red;
     background-color: red;

@@ -23,7 +23,7 @@
                                         </div>
                                         <div class="job-listing-meta meta">
                                             <ul class="job-types">
-                                                <li class="job-type full-time {{ $empresa->provincia }}">
+                                                <li class="provincia {{ strtolower($empresa->provincia) }}">
                                                     {{ $empresa->provincia }} </li>
                                             </ul><span class="job-published-date date"><time
                                                     datetime="2022-11-18">Antiguedad:
