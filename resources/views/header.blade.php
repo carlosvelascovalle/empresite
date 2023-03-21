@@ -52,22 +52,20 @@
                                     </ul>
                                 </div>
                                 <ul class="header-menu">
-                                    <div class="job-search-form">
-                                        <form method="GET" action="/empresas/">
-                                            <div class="job-search-keywords">
-                                                <label class="sr-only" for="search">Keywords</label>
-                                                <input type="text" id="search" name="search"
-                                                    placeholder="Busca por CIF, Nombre de Empresa, Provincia..."
-                                                    class="ui-autocomplete-input" autocomplete="off"
-                                                    value="{{ $search }}">
-                                            </div>
-                                            <div class="job-search-submit">
-                                                <button type="submit" value="Search"><i class="la la-search"></i><span
-                                                        class="job-search-text">Search</span></button>
-                                            </div>
-
-                                        </form>
-                                    </div>
+                                    <li class="menu-item menu-item-register">
+                                        <a href="">
+                                            <i class="la la-key desktop-only"></i>
+                                            <i class="fas fa-key handheld-only"></i>
+                                            <span class="secondary-menu-text">Registro</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu-item-login">
+                                        <a href="">
+                                            <i class="la la-sign-in desktop-only"></i>
+                                            <i class="fas fa-sign-in-alt handheld-only "></i>
+                                            <span class="secondary-menu-text">Acceso</span>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
