@@ -27771,15 +27771,15 @@ p.job-manager-single-alert-link a:before {
 }
 
 @media (min-width: 1200px) {
-    .job-search-block .job-search-form,
-    .job-search-block .resume-search-form,
-    .page-template-template-homepage-v1 .resume-search-block .job-search-form,
+    .job-search-form,
+    .resume-search-form,
+    .job-search-form,
     .page-template-template-homepage-v1
         .resume-search-block
         .resume-search-form,
-    .header-search-icon .job-search-block .job-search-form,
+    .job-search-form,
     .header-search-icon .job-search-block .resume-search-form,
-    .header-search-icon .resume-search-block .job-search-form,
+    .job-search-form,
     .header-search-icon .resume-search-block .resume-search-form {
         flex: 0 0 auto;
         width: auto;
