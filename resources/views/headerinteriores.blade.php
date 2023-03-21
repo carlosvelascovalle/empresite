@@ -4,8 +4,7 @@
     <div class="site-content-page-header-inner">
         <div class="job-search-block">
             <div class="section-header">
-                <h1 class="section-title">{{ $empresa->denominacion }}</h1>
-                <h2 class="section-sub-title">{{ $empresa->actividad_cnae }}</h2>
+
             </div>
             <div class="job-search-form">
                 <form method="GET" action="/empresas/">
