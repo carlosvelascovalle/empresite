@@ -10,7 +10,7 @@ Route::get('/', [HomeController::class, 'index']);
 
 Route::controller(EmpresasController::class)->group(function () {
     Route::get(
-        '/empresas',
+        '/listado-de-empresas',
         'index'
     );
     Route::get('/empresa/{slug}', 'show');

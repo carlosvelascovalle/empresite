@@ -47,7 +47,7 @@
                                         </li>
                                         <li id="menu-item-221"
                                             class="menu-item menu-item-type-post_type menu-item-object-page">
-                                            <a href="/empresas">Empresas</a>
+                                            <a href="/listado-de-empresas">Empresas</a>
                                         </li>
                                     </ul>
                                 </div>
