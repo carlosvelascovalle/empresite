@@ -1,3 +1,7 @@
+@include('headersuperior')
+<title>EMPRESITE | El Mejor Buscador de Empresas</title>
+<meta name="description"
+    content="Empresite es el lugar ideal para encontrar las empresas que necesitas. ¡No busques más, Empresite es tu guía para encontrar lo que necesitas en el mundo empresarial!">
 @include('header')
 <header class="site-content-page-header"
     style="background: url(/img/listado-de-empresas.jpg) center center no-repeat fixed">
