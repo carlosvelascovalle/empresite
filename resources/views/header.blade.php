@@ -24,13 +24,13 @@
 </head>
 
 <body
-    class="home page-template page-template-template-homepage-v1 page-template-template-homepage-v1-php page page-id-217 theme-jobhunt kc-css-system woocommerce-js jobhunt-sticky-header-enabled  woocommerce-active wpjm-activated jobhunt"
+    class="home page-template page-template-template-homepage-v1 page-template-template-homepage-v1-php page page-id-217 theme-companyhunt kc-css-system woocommerce-js companyhunt-sticky-header-enabled  woocommerce-active wpjm-activated companyhunt"
     cz-shortcut-listen="true">
     <div class="off-canvas-wrapper">
         <div id="page" class="hfeed site">
             <header class="site-header header-v1  header-transparent header-bg-default" style="">
                 <div class="sticky-wrapper" style="">
-                    <div class="desktop-only jobhunt-stick-this">
+                    <div class="desktop-only companyhunt-stick-this">
                         <div class="container">
                             <div class="site-header-inner">
                                 <div class="site-branding">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="sticky-wrapper" style="">
-                    <div class="handheld-only jobhunt-stick-this" style="">
+                    <div class="handheld-only companyhunt-stick-this" style="">
                         <div class="container">
                             <div class="handheld-header">
                                 <div class="off-canvas-navigation-wrapper">
@@ -123,7 +123,7 @@
                                                 </li>
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                    <a href="">Jobs</a><button aria-expanded="false"
+                                                    <a href="">companys</a><button aria-expanded="false"
                                                         class="dropdown-toggle"><span
                                                             class="screen-reader-text">Expand child
                                                             menu</span></button>
@@ -253,7 +253,7 @@
                                                         </li>
                                                         <li
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491">
-                                                            <a href="">Job
+                                                            <a href="">company
                                                                 Packages</a>
                                                         </li>
                                                         <li

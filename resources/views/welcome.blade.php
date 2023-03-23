@@ -7,37 +7,35 @@
             <div class="woocommerce"></div>
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
-                    <section id="jh-scroll-here" class="jh-section job-categories-section v1">
+                    <section id="jh-scroll-here" class="jh-section company-categories-section v1">
                         <div class="container">
                             <div class="section-header">
                                 <h3 class="section-title">Categorias</h3>
                                 <span class="section-sub-title">{{ $numero_de_localidades }} Localidades</span>
                             </div>
-                            <div class="job-categories-section__inner">
-                                <ul class="job-categories">
+                            <div class="company-categories-section__inner">
+                                <ul class="company-categories">
                                     @foreach ($localidades_empresas as $localidad_empresa)
-                                        <li class="job-category">
+                                        <li class="company-category">
                                             <a href="#">
                                                 <div class="media-icon">
                                                     <i class="la la-building-o"></i>
                                                 </div>
                                                 <div class="media-caption">
                                                     <h4 class="category-titile">{{ $localidad_empresa->localidad }}</h4>
-                                                    <span class="job-count">{{ $localidad_empresa->total }}</span>
+                                                    <span class="company-count">{{ $localidad_empresa->total }}</span>
                                                 </div>
                                             </a>
                                         </li>
                                     @endforeach
                                 </ul>
                                 <div class="action">
-                                    <a class="action-link"
-                                        href="/">Proximamente</a>
+                                    <a class="action-link" href="/">Proximamente</a>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section class="jh-section banners-block with-action"
-                        style="">
+                    <section class="jh-section banners-block with-action" style="">
                         <div class="container">
                             <div class="banners-block-inner">
                                 <div class="section-header">
@@ -53,38 +51,38 @@
                             </div>
                         </div>
                     </section>
-                    <section class="jh-section job-list-section">
+                    <section class="jh-section company-list-section">
                         <div class="container">
                             <div class="section-header">
                                 <h3 class="section-title">Empresas Destacadas</h3>
                                 <span class="section-sub-title">Las empresas destacadas</span>
                             </div>
-                            <div class="job_listings" data-location="" data-keywords="" data-show_filters="false"
+                            <div class="company_listings" data-location="" data-keywords="" data-show_filters="false"
                                 data-show_pagination="false" data-per_page="6" data-orderby="featured" data-order="DESC"
                                 data-categories="" data-featured="true">
-                                <ul class="job_listings list">
+                                <ul class="company_listings list">
                                     <!--listar empresas-->
                                     @foreach ($empresas as $empresa)
                                         <li
-                                            class="post-61 job_listing type-job_listing status-publish has-post-thumbnail hentry job_listing_category-information-technology job_listing_type-full-time job_listing_salary-5000-10000 job_listing_career_level-lead job_listing_experience-6-7-years job_listing_gender-male job_listing_industry-information-technology job_listing_qualification-bachelor-degree job-type-full-time job_position_featured">
+                                            class="post-61 company_listing type-company_listing status-publish has-post-thumbnail hentry company_listing_category-information-technology company_listing_type-full-time company_listing_salary-5000-10000 company_listing_career_level-lead company_listing_experience-6-7-years company_listing_gender-male company_listing_industry-information-technology company_listing_qualification-bachelor-degree company-type-full-time company_position_featured">
                                             <a href="/empresa/{{ $empresa->slug }}">
-                                                <div class="job-listing-company-logo"></div>
-                                                <div class="job-details">
-                                                    <div class="job-details-inner">
-                                                        <h3 class="job-listing-loop-job__title">
+                                                <div class="company-listing-company-logo"></div>
+                                                <div class="company-details">
+                                                    <div class="company-details-inner">
+                                                        <h3 class="company-listing-loop-company__title">
                                                             {{ $empresa->denominacion }}</h3>
-                                                        <div class="job-listing-company company">
+                                                        <div class="company-listing-company company">
                                                             <strong>{{ $empresa->localidad }}</strong>
                                                         </div>
-                                                        <div class="job-location location">
+                                                        <div class="company-location location">
                                                             <i class="la la-map-marker"></i>{{ $empresa->pagina_web }}
                                                         </div>
                                                     </div>
-                                                    <div class="job-listing-meta meta">
-                                                        <ul class="job-types">
-                                                            <li class="job-type full-time"style="width:max-content">
+                                                    <div class="company-listing-meta meta">
+                                                        <ul class="company-types">
+                                                            <li class="company-type full-time"style="width:max-content">
                                                                 {{ $empresa->provincia }} </li>
-                                                        </ul><span class="job-published-date date"><time
+                                                        </ul><span class="company-published-date date"><time
                                                                 datetime="2022-11-18">Antiguedad:
                                                                 {{ $empresa->antiguedad }}
                                                                 años</time></span>
@@ -94,7 +92,7 @@
                                         </li>
                                     @endforeach
                                 </ul>
-                                <a class="load_more_jobs" href="/empresas"><strong>Ver más</strong></a>
+                                <a class="load_more_companys" href="/empresas"><strong>Ver más</strong></a>
                             </div>
                         </div>
                     </section>

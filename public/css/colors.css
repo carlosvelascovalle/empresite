@@ -3,9 +3,9 @@
 .footer-v2 .footer-wadget .social-menu-widget .menu-item a:focus,
 .footer-v2 .footer-widget .social-menu-widget li a:hover,
 .footer-v2 .footer-widget .social-menu-widget li a:focus,
-.v2.job-categories-section .job-category:hover i,
+.v2.company-categories-section .company-category:hover i,
 .v1.jh-site-stats-section,
-.product.featured .job-pricing-inner,
+.product.featured .company-pricing-inner,
 .how-it-works-section.v2 .step i,
 .banner-with-image-section::after,
 .dual-banner-inner .banners .align-end::after,
@@ -20,16 +20,16 @@
 .header-menu .sub-menu > li > a:active,
 .company-profile-inner .slick-arrow:hover,
 .company-profile-inner .slick-arrow:focus,
-.jobhunt-wpjm-active-filters > ul .chosen a,
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.companyhunt-wpjm-active-filters > ul .chosen a,
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     a:hover,
-#submit-job-form
-    .job-manager-uploaded-file-preview
-    .job-manager-remove-uploaded-file::before,
-.site-header.header-v5 .jobhunt-stick-this.stuck,
+#submit-company-form
+    .company-manager-uploaded-file-preview
+    .company-manager-remove-uploaded-file::before,
+.site-header.header-v5 .companyhunt-stick-this.stuck,
 #scrollUp:hover,
 #scrollUp:focus,
 .banners-block:not(.with-action):hover,
@@ -129,8 +129,8 @@ article.post .entry-title a:focus,
 .pagination li a .meta-nav,
 .widget_search form.search-form label:after,
 .widget_search .woocommerce-product-search label:after,
-.jobhunt_recent_posts_widget a:hover i,
-.jobhunt_recent_posts_widget a:focus i,
+.companyhunt_recent_posts_widget a:hover i,
+.companyhunt_recent_posts_widget a:focus i,
 .widget_calendar .calendar_wrap a:hover,
 .widget_calendar .calendar_wrap a:focus,
 .widget ul li a:hover,
@@ -181,8 +181,8 @@ article.post .media-attachment .post-icon:focus i,
 .footer-v5 .footer-widgets .widget_nav_menu .menu-item a:focus,
 .footer-v5 .footer-widgets .widget ul li a:hover,
 .footer-v5 .footer-widgets .widget ul li a:focus,
-.v1 .job-category .job-count,
-.v1 .job-category > a:hover i,
+.v1 .company-category .company-count,
+.v1 .company-category > a:hover i,
 .blog-grid article.post .post-readmore a:hover,
 .blog-grid article.post .post-readmore a:focus,
 .blog-grid article .post-readmore a:hover,
@@ -192,28 +192,28 @@ article.post .media-attachment .post-icon:focus i,
 .blog-list article .post-readmore a:hover,
 .blog-list article .post-readmore a:focus,
 .how-it-works-section.v1 .step i,
-.job-pricing-inner .woocommerce-Price-amount,
-.job-list-section .load_more_jobs strong,
+.company-pricing-inner .woocommerce-Price-amount,
+.company-list-section .load_more_companys strong,
 .how-it-works-section.v3 .step:hover i,
 .candidate-profile-inner .view-resume,
-.v4.job-categories-section .job-category i,
+.v4.company-categories-section .company-category i,
 .v2.jh-site-stats-section .site-stats .stats-count,
 .v4.how-it-works-section .step i,
-.job-list-tab-section .load_more_jobs strong,
-.jobhunt-faq-section
+.company-list-tab-section .load_more_companys strong,
+.companyhunt-faq-section
     .faq-content-question-header
     h5[data-toggle="collapse"]::after,
 .faq-with-testimonail-section .slick-dots li.slick-active button::before,
-.header-search-icon .job-search-block .job-search-keywords::after,
-.header-search-icon .job-search-block .job-search-location::after,
+.header-search-icon .company-search-block .company-search-keywords::after,
+.header-search-icon .company-search-block .company-search-location::after,
 .header-search-icon .resume-search-block .resume-search-keywords::after,
 .header-search-icon .resume-search-block .resume-search-location::after,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-keywords::after,
+    .company-search-block
+    .company-search-keywords::after,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-location::after,
+    .company-search-block
+    .company-search-location::after,
 .page-template-template-homepage-v1
     .resume-search-block
     .resume-search-keywords::after,
@@ -224,21 +224,21 @@ article.post .media-attachment .post-icon:focus i,
 .page-template-template-homepage-v3 .site-content-page-header-inner::after,
 .jh-companies .company-category .categories a,
 .jh-companies .company-category .categories li::after,
-.widget-area .jobhunt-wpjm-search button,
-.widget_jobhunt_wpjm_location_search button,
-.jobhunt-wpjmc-search button,
-.jobhunt-wpjmc-location-search button,
-.jobhunt-wpjmr-search button,
-.jobhunt-wpjmr-location-search button,
+.widget-area .companyhunt-wpjm-search button,
+.widget_companyhunt_wpjm_location_search button,
+.companyhunt-wpjmc-search button,
+.companyhunt-wpjmc-location-search button,
+.companyhunt-wpjmr-search button,
+.companyhunt-wpjmr-location-search button,
 .woocommerce-product-search button,
-.widget_jobhunt_wpjm_date_filter
-    .jobhunt-wpjm-date-filter-list__item.chosen
+.widget_companyhunt_wpjm_date_filter
+    .companyhunt-wpjm-date-filter-list__item.chosen
     a::before,
-.widget_jobhunt_wpjmc_date_filter
-    .jobhunt-wpjmc-date-filter-list__item.chosen
+.widget_companyhunt_wpjmc_date_filter
+    .companyhunt-wpjmc-date-filter-list__item.chosen
     a::before,
-.widget_jobhunt_wpjmr_date_filter
-    .jobhunt-wpjmr-date-filter-list__item.chosen
+.widget_companyhunt_wpjmr_date_filter
+    .companyhunt-wpjmr-date-filter-list__item.chosen
     a::before,
 .company-profile-inner .company-location,
 .single-resume-content
@@ -249,21 +249,26 @@ article.post .media-attachment .post-icon:focus i,
     .single-resume__content-area
     .resume-manager-skills
     li::before,
-.job-listing-company strong,
-.post-type-archive-job_listing .job-search-block .job-search-keywords::after,
-.post-type-archive-job_listing .job-search-block .job-search-location::after,
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.company-listing-company strong,
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-keywords::after,
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-location::after,
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     a,
-.job-list-summary-section .job_summary_content strong,
+.company-list-summary-section .company_summary_content strong,
 .page-template-template-homepage-v1 .jh-scroll-to a i,
 .page-template-template-homepage-v3 .jh-scroll-to a i,
 .page-template-template-homepage-v5 .jh-scroll-to a i:hover,
 .comment-list .woocommerce-review__published-date,
 .comment-list .woocommerce-review__published-date a,
-.job_listing.job_position_featured .job-listing-loop-job__title {
+.company_listing.company_position_featured
+    .company-listing-loop-company__title {
     color: #fb236a;
 }
 
@@ -284,16 +289,16 @@ article.post .cat-links a:hover,
 article.post .cat-links a:focus,
 .comment-list .woocommerce-review__published-date a,
 .comment-list .woocommerce-review__published-date,
-.single-job-listing-overview__detail--icon,
-.v1 .job-category i,
+.single-company-listing-overview__detail--icon,
+.v1 .company-category i,
 .v1 .testimonial-inner::before,
 .jh-resumes .candidate-title strong,
-.page-template-template-homepage-v3 .job-search-block .section-title,
+.page-template-template-homepage-v3 .company-search-block .section-title,
 .page-template-template-homepage-v3 .resume-search-block .section-title,
 .jh-companies .company-title-position .open-positions,
 .company-single-head__left i,
 .single-company__inner .company-overview-inner i,
-.single-resume-inner .single-candidate-details .job-title,
+.single-resume-inner .single-candidate-details .company-title,
 .resume-single-type-v1 .single-resume-content-navbar ul li a.active,
 .single-resume-content
     .single-resume__content-area
@@ -306,7 +311,7 @@ article.post .cat-links a:focus,
 .single-resume-content
     .single-resume__content-area
     .resume-manager-experience
-    .job_title,
+    .company_title,
 .single-resume-content
     .single-resume__content-area
     .resume-manager-awards
@@ -317,31 +322,35 @@ article.post .cat-links a:focus,
     dt::before,
 .single-resume__overview .single-resume__widget--content li i,
 .resume-single-type-v2 .single-resume-content-navbar .navbar-links li a.active,
-.job_listing-single-job-info
-    .job-listing-single-location-salary-posted
+.company_listing-single-company-info
+    .company-listing-single-location-salary-posted
     > div
     > i,
-.job_listing-single-job-info .job-listing_single_job__salary a,
-.job_listing-single-job-info
-    .job-listing-single-location-salary-posted
+.company_listing-single-company-info .company-listing_single_company__salary a,
+.company_listing-single-company-info
+    .company-listing-single-location-salary-posted
     > div
     a:hover,
-.job_listing-single-job-info
-    .job-listing-single-location-salary-posted
+.company_listing-single-company-info
+    .company-listing-single-location-salary-posted
     > div
     a:focus,
-.job_listing-single-job-info .job-listing_single_job__category a:hover,
-.job_listing-single-job-info .job-listing_single_job__category a:focus,
-.single-job-listing-company__contact > a::before,
-.single-job-listing-company__contact > span::before,
-.single-job-listing-company__contact > a:hover,
-.single-job-listing-company__contact > a:focus,
-.job-single-type-v3 .job-location-type .location i,
+.company_listing-single-company-info
+    .company-listing_single_company__category
+    a:hover,
+.company_listing-single-company-info
+    .company-listing_single_company__category
+    a:focus,
+.single-company-listing-company__contact > a::before,
+.single-company-listing-company__contact > span::before,
+.single-company-listing-company__contact > a:hover,
+.single-company-listing-company__contact > a:focus,
+.company-single-type-v3 .company-location-type .location i,
 .wpjm-activated .woocommerce-MyAccount-navigation-link a:hover,
 .wpjm-activated .woocommerce-MyAccount-navigation-link a:focus,
 .wpjm-activated .woocommerce-MyAccount-navigation-link.is-active a,
-.jobhunt-wpjm-active-filters .clear-all a,
-.single_job_listing .application-deadline:before,
+.companyhunt-wpjm-active-filters .clear-all a,
+.single_company_listing .application-deadline:before,
 .single-company__inner .company-overview-inner .value a:hover,
 .single-company__inner .company-overview-inner .value a:focus,
 .single-resume__overview
@@ -356,11 +365,12 @@ article.post .cat-links a:focus,
     a:focus,
 .claim-link a:hover,
 .claim-link a:focus,
-.job_listing.job_position_featured .job-listing-loop-job__title:after {
+.company_listing.company_position_featured
+    .company-listing-loop-company__title:after {
     color: #8b91dd;
 }
 
-.page-template-template-homepage-v1 .job-search-block .section-sub-title,
+.page-template-template-homepage-v1 .company-search-block .section-sub-title,
 .page-template-template-homepage-v1 .resume-search-block .section-sub-title {
     color: #dadcf4;
 }
@@ -375,15 +385,15 @@ article.post .cat-links a:focus,
 }
 
 .error-404 .content-404::after,
-.post-type-archive-job_listing
+.post-type-archive-company_listing
     .header-bg-default
     + .site-content-page-header:after,
-.single-job_listing .header-bg-default + .site-content-page-header:after,
+.single-company_listing .header-bg-default + .site-content-page-header:after,
 .post-type-archive-resume .header-bg-default + .site-content-page-header:after,
 .post-type-archive-company .header-bg-default + .site-content-page-header:after,
 .single-company .header-bg-default + .site-content-page-header:after,
 .single-resume-head::before,
-.single-job-preview .site-content-page-header::after,
+.single-company-preview .site-content-page-header::after,
 .single-resume-preview.single-resume .site-content-page-header::after,
 .blog .header-bg-default + .site-content-page-header:after,
 .blog-archive .header-bg-default + .site-content-page-header:after,
@@ -395,7 +405,7 @@ article.post .cat-links a:focus,
 .page-template-template-sidebar
     .header-bg-default
     + .site-content-page-header:after,
-.page-template-template-job-sidebar
+.page-template-template-company-sidebar
     .header-bg-default
     + .site-content-page-header:after,
 .page-template-template-resume-sidebar
@@ -417,20 +427,23 @@ article.post .cat-links a:focus,
     background-color: #f5f6fc;
 }
 
-.post-a-job a,
-.jobhunt_newsletter_widget .newsletter-form button[type="submit"],
+.post-a-company a,
+.companyhunt_newsletter_widget .newsletter-form button[type="submit"],
 .checkout-button,
 button[name="woocommerce_checkout_place_order"],
 .application_button,
-.job-pricing-inner .job-pricing-features a,
-.job-list-tab-section .nav-tabs .nav-link.active,
+.company-pricing-inner .company-pricing-features a,
+.company-list-tab-section .nav-tabs .nav-link.active,
 .contact-form input[type="submit"],
-.page-template-template-homepage-v4 .job-search-block form button,
-.page-template-template-homepage-v5 .job-search-block .job-search-submit button,
+.page-template-template-homepage-v4 .company-search-block form button,
+.page-template-template-homepage-v5
+    .company-search-block
+    .company-search-submit
+    button,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button,
 .page-template-template-homepage-v4 .resume-search-block form button,
 .page-template-template-homepage-v5
@@ -445,15 +458,18 @@ button[name="woocommerce_checkout_place_order"],
 .company-single-head__right .company-location-map,
 .companies-listing-a-z .company-group-inner .company-letter,
 .resume-single-type-v2 .single-resume-content-navbar .contact-candidate-email a,
-.job-manager-form fieldset .resume-manager-data-row .resume-manager-remove-row,
+.company-manager-form
+    fieldset
+    .resume-manager-data-row
+    .resume-manager-remove-row,
 .resume-manager-candidate-dashboard tfoot a,
-.job-manager-job-dashboard-content tfoot a,
+.company-manager-company-dashboard-content tfoot a,
 article.post-password-required .post-password-form input[type="submit"],
 article.post.post-password-required .post-password-form input[type="submit"],
 .handheld-sidebar-toggle .btn,
 .woocommerce-mini-cart__buttons .button.checkout,
-.job-manager-form.wp-job-manager-bookmarks-form .remove-bookmark,
-.job_tags a,
+.company-manager-form.wp-company-manager-bookmarks-form .remove-bookmark,
+.company_tags a,
 .onsale,
 .wpforms-container.contact-form
     .wpforms-form
@@ -467,23 +483,23 @@ article.post.post-password-required .post-password-form input[type="submit"],
     background-color: #fb236a;
     border-color: #fb236a;
 }
-.post-a-job a:hover,
-.jobhunt_newsletter_widget .newsletter-form button[type="submit"]:hover,
+.post-a-company a:hover,
+.companyhunt_newsletter_widget .newsletter-form button[type="submit"]:hover,
 .checkout-button:hover,
 button[name="woocommerce_checkout_place_order"]:hover,
 .application_button:hover,
-.job-pricing-inner .job-pricing-features a:hover,
-.job-list-tab-section .nav-tabs .nav-link.active:hover,
+.company-pricing-inner .company-pricing-features a:hover,
+.company-list-tab-section .nav-tabs .nav-link.active:hover,
 .contact-form input[type="submit"]:hover,
-.page-template-template-homepage-v4 .job-search-block form button:hover,
+.page-template-template-homepage-v4 .company-search-block form button:hover,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:hover,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:hover,
 .page-template-template-homepage-v4 .resume-search-block form button:hover,
 .page-template-template-homepage-v5
@@ -501,20 +517,20 @@ button[name="woocommerce_checkout_place_order"]:hover,
     .single-resume-content-navbar
     .contact-candidate-email
     a:hover,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:hover,
 .resume-manager-candidate-dashboard tfoot a:hover,
-.job-manager-job-dashboard-content tfoot a:hover,
+.company-manager-company-dashboard-content tfoot a:hover,
 article.post-password-required .post-password-form input[type="submit"]:hover,
 article.post.post-password-required
     .post-password-form
     input[type="submit"]:hover,
 .handheld-sidebar-toggle .btn:hover,
 .woocommerce-mini-cart__buttons .button.checkout:hover,
-.job-manager-form.wp-job-manager-bookmarks-form .remove-bookmark:hover,
-.job_tags a:hover,
+.company-manager-form.wp-company-manager-bookmarks-form .remove-bookmark:hover,
+.company_tags a:hover,
 .onsale:hover,
 .wpforms-container.contact-form
     .wpforms-form
@@ -528,41 +544,41 @@ article.post.post-password-required
     background-color: #555;
     border-color: #555;
 }
-.post-a-job a:focus,
-.post-a-job a.focus,
-.jobhunt_newsletter_widget .newsletter-form button[type="submit"]:focus,
-.jobhunt_newsletter_widget .newsletter-form button[type="submit"].focus,
+.post-a-company a:focus,
+.post-a-company a.focus,
+.companyhunt_newsletter_widget .newsletter-form button[type="submit"]:focus,
+.companyhunt_newsletter_widget .newsletter-form button[type="submit"].focus,
 .checkout-button:focus,
 .checkout-button.focus,
 button[name="woocommerce_checkout_place_order"]:focus,
 button[name="woocommerce_checkout_place_order"].focus,
 .application_button:focus,
 .application_button.focus,
-.job-pricing-inner .job-pricing-features a:focus,
-.job-pricing-inner .job-pricing-features a.focus,
-.job-list-tab-section .nav-tabs .nav-link.active:focus,
-.job-list-tab-section .nav-tabs .nav-link.active.focus,
+.company-pricing-inner .company-pricing-features a:focus,
+.company-pricing-inner .company-pricing-features a.focus,
+.company-list-tab-section .nav-tabs .nav-link.active:focus,
+.company-list-tab-section .nav-tabs .nav-link.active.focus,
 .contact-form input[type="submit"]:focus,
 .contact-form input[type="submit"].focus,
-.page-template-template-homepage-v4 .job-search-block form button:focus,
-.page-template-template-homepage-v4 .job-search-block form button.focus,
+.page-template-template-homepage-v4 .company-search-block form button:focus,
+.page-template-template-homepage-v4 .company-search-block form button.focus,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:focus,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.focus,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:focus,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button.focus,
 .page-template-template-homepage-v4 .resume-search-block form button:focus,
 .page-template-template-homepage-v4 .resume-search-block form button.focus,
@@ -596,18 +612,18 @@ button[name="woocommerce_checkout_place_order"].focus,
     .single-resume-content-navbar
     .contact-candidate-email
     a.focus,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:focus,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row.focus,
 .resume-manager-candidate-dashboard tfoot a:focus,
 .resume-manager-candidate-dashboard tfoot a.focus,
-.job-manager-job-dashboard-content tfoot a:focus,
-.job-manager-job-dashboard-content tfoot a.focus,
+.company-manager-company-dashboard-content tfoot a:focus,
+.company-manager-company-dashboard-content tfoot a.focus,
 article.post-password-required .post-password-form input[type="submit"]:focus,
 article.post-password-required .post-password-form input[type="submit"].focus,
 article.post.post-password-required
@@ -620,10 +636,10 @@ article.post.post-password-required
 .handheld-sidebar-toggle .btn.focus,
 .woocommerce-mini-cart__buttons .button.checkout:focus,
 .woocommerce-mini-cart__buttons .button.checkout.focus,
-.job-manager-form.wp-job-manager-bookmarks-form .remove-bookmark:focus,
-.job-manager-form.wp-job-manager-bookmarks-form .remove-bookmark.focus,
-.job_tags a:focus,
-.job_tags a.focus,
+.company-manager-form.wp-company-manager-bookmarks-form .remove-bookmark:focus,
+.company-manager-form.wp-company-manager-bookmarks-form .remove-bookmark.focus,
+.company_tags a:focus,
+.company_tags a.focus,
 .onsale:focus,
 .onsale.focus,
 .wpforms-container.contact-form
@@ -647,41 +663,41 @@ article.post.post-password-required
     border-color: #555;
     box-shadow: 0 0 0 0.2rem rgba(252, 68, 128, 0.5);
 }
-.post-a-job a.disabled,
-.post-a-job a:disabled,
-.jobhunt_newsletter_widget .newsletter-form button[type="submit"].disabled,
-.jobhunt_newsletter_widget .newsletter-form button[type="submit"]:disabled,
+.post-a-company a.disabled,
+.post-a-company a:disabled,
+.companyhunt_newsletter_widget .newsletter-form button[type="submit"].disabled,
+.companyhunt_newsletter_widget .newsletter-form button[type="submit"]:disabled,
 .checkout-button.disabled,
 .checkout-button:disabled,
 button[name="woocommerce_checkout_place_order"].disabled,
 button[name="woocommerce_checkout_place_order"]:disabled,
 .application_button.disabled,
 .application_button:disabled,
-.job-pricing-inner .job-pricing-features a.disabled,
-.job-pricing-inner .job-pricing-features a:disabled,
-.job-list-tab-section .nav-tabs .nav-link.active.disabled,
-.job-list-tab-section .nav-tabs .nav-link.active:disabled,
+.company-pricing-inner .company-pricing-features a.disabled,
+.company-pricing-inner .company-pricing-features a:disabled,
+.company-list-tab-section .nav-tabs .nav-link.active.disabled,
+.company-list-tab-section .nav-tabs .nav-link.active:disabled,
 .contact-form input[type="submit"].disabled,
 .contact-form input[type="submit"]:disabled,
-.page-template-template-homepage-v4 .job-search-block form button.disabled,
-.page-template-template-homepage-v4 .job-search-block form button:disabled,
+.page-template-template-homepage-v4 .company-search-block form button.disabled,
+.page-template-template-homepage-v4 .company-search-block form button:disabled,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.disabled,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:disabled,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button.disabled,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:disabled,
 .page-template-template-homepage-v4 .resume-search-block form button.disabled,
 .page-template-template-homepage-v4 .resume-search-block form button:disabled,
@@ -715,18 +731,18 @@ button[name="woocommerce_checkout_place_order"]:disabled,
     .single-resume-content-navbar
     .contact-candidate-email
     a:disabled,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row.disabled,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:disabled,
 .resume-manager-candidate-dashboard tfoot a.disabled,
 .resume-manager-candidate-dashboard tfoot a:disabled,
-.job-manager-job-dashboard-content tfoot a.disabled,
-.job-manager-job-dashboard-content tfoot a:disabled,
+.company-manager-company-dashboard-content tfoot a.disabled,
+.company-manager-company-dashboard-content tfoot a:disabled,
 article.post-password-required
     .post-password-form
     input[type="submit"].disabled,
@@ -743,10 +759,12 @@ article.post.post-password-required
 .handheld-sidebar-toggle .btn:disabled,
 .woocommerce-mini-cart__buttons .button.checkout.disabled,
 .woocommerce-mini-cart__buttons .button.checkout:disabled,
-.job-manager-form.wp-job-manager-bookmarks-form .remove-bookmark.disabled,
-.job-manager-form.wp-job-manager-bookmarks-form .remove-bookmark:disabled,
-.job_tags a.disabled,
-.job_tags a:disabled,
+.company-manager-form.wp-company-manager-bookmarks-form
+    .remove-bookmark.disabled,
+.company-manager-form.wp-company-manager-bookmarks-form
+    .remove-bookmark:disabled,
+.company_tags a.disabled,
+.company_tags a:disabled,
 .onsale.disabled,
 .onsale:disabled,
 .wpforms-container.contact-form
@@ -769,17 +787,17 @@ article.post.post-password-required
     background-color: #fb236a;
     border-color: #fb236a;
 }
-.post-a-job a:not(:disabled):not(.disabled):active,
-.post-a-job a:not(:disabled):not(.disabled).active,
-.show > .post-a-job a.dropdown-toggle,
-.jobhunt_newsletter_widget
+.post-a-company a:not(:disabled):not(.disabled):active,
+.post-a-company a:not(:disabled):not(.disabled).active,
+.show > .post-a-company a.dropdown-toggle,
+.companyhunt_newsletter_widget
     .newsletter-form
     button[type="submit"]:not(:disabled):not(.disabled):active,
-.jobhunt_newsletter_widget
+.companyhunt_newsletter_widget
     .newsletter-form
     button[type="submit"]:not(:disabled):not(.disabled).active,
 .show
-    > .jobhunt_newsletter_widget
+    > .companyhunt_newsletter_widget
     .newsletter-form
     button[type="submit"].dropdown-toggle,
 .checkout-button:not(:disabled):not(.disabled):active,
@@ -795,60 +813,64 @@ button[name="woocommerce_checkout_place_order"]:not(:disabled):not(
 .application_button:not(:disabled):not(.disabled):active,
 .application_button:not(:disabled):not(.disabled).active,
 .show > .application_button.dropdown-toggle,
-.job-pricing-inner .job-pricing-features a:not(:disabled):not(.disabled):active,
-.job-pricing-inner .job-pricing-features a:not(:disabled):not(.disabled).active,
-.show > .job-pricing-inner .job-pricing-features a.dropdown-toggle,
-.job-list-tab-section
+.company-pricing-inner
+    .company-pricing-features
+    a:not(:disabled):not(.disabled):active,
+.company-pricing-inner
+    .company-pricing-features
+    a:not(:disabled):not(.disabled).active,
+.show > .company-pricing-inner .company-pricing-features a.dropdown-toggle,
+.company-list-tab-section
     .nav-tabs
     .nav-link.active:not(:disabled):not(.disabled):active,
-.job-list-tab-section
+.company-list-tab-section
     .nav-tabs
     .nav-link.active:not(:disabled):not(.disabled).active,
-.show > .job-list-tab-section .nav-tabs .nav-link.active.dropdown-toggle,
+.show > .company-list-tab-section .nav-tabs .nav-link.active.dropdown-toggle,
 .contact-form input[type="submit"]:not(:disabled):not(.disabled):active,
 .contact-form input[type="submit"]:not(:disabled):not(.disabled).active,
 .show > .contact-form input[type="submit"].dropdown-toggle,
 .page-template-template-homepage-v4
-    .job-search-block
+    .company-search-block
     form
     button:not(:disabled):not(.disabled):active,
 .page-template-template-homepage-v4
-    .job-search-block
+    .company-search-block
     form
     button:not(:disabled):not(.disabled).active,
 .show
     > .page-template-template-homepage-v4
-    .job-search-block
+    .company-search-block
     form
     button.dropdown-toggle,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active,
 .show
     > .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:not(:disabled):not(.disabled):active,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:not(:disabled):not(.disabled).active,
 .show
     > .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button.dropdown-toggle,
 .page-template-template-homepage-v4
     .resume-search-block
@@ -920,16 +942,16 @@ button[name="woocommerce_checkout_place_order"]:not(:disabled):not(
     .single-resume-content-navbar
     .contact-candidate-email
     a.dropdown-toggle,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:not(:disabled):not(.disabled):active,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:not(:disabled):not(.disabled).active,
 .show
-    > .job-manager-form
+    > .company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row.dropdown-toggle,
@@ -940,9 +962,13 @@ button[name="woocommerce_checkout_place_order"]:not(:disabled):not(
     tfoot
     a:not(:disabled):not(.disabled).active,
 .show > .resume-manager-candidate-dashboard tfoot a.dropdown-toggle,
-.job-manager-job-dashboard-content tfoot a:not(:disabled):not(.disabled):active,
-.job-manager-job-dashboard-content tfoot a:not(:disabled):not(.disabled).active,
-.show > .job-manager-job-dashboard-content tfoot a.dropdown-toggle,
+.company-manager-company-dashboard-content
+    tfoot
+    a:not(:disabled):not(.disabled):active,
+.company-manager-company-dashboard-content
+    tfoot
+    a:not(:disabled):not(.disabled).active,
+.show > .company-manager-company-dashboard-content tfoot a.dropdown-toggle,
 article.post-password-required
     .post-password-form
     input[type="submit"]:not(:disabled):not(.disabled):active,
@@ -971,16 +997,16 @@ article.post.post-password-required
 .woocommerce-mini-cart__buttons
     .button.checkout:not(:disabled):not(.disabled).active,
 .show > .woocommerce-mini-cart__buttons .button.checkout.dropdown-toggle,
-.job-manager-form.wp-job-manager-bookmarks-form
+.company-manager-form.wp-company-manager-bookmarks-form
     .remove-bookmark:not(:disabled):not(.disabled):active,
-.job-manager-form.wp-job-manager-bookmarks-form
+.company-manager-form.wp-company-manager-bookmarks-form
     .remove-bookmark:not(:disabled):not(.disabled).active,
 .show
-    > .job-manager-form.wp-job-manager-bookmarks-form
+    > .company-manager-form.wp-company-manager-bookmarks-form
     .remove-bookmark.dropdown-toggle,
-.job_tags a:not(:disabled):not(.disabled):active,
-.job_tags a:not(:disabled):not(.disabled).active,
-.show > .job_tags a.dropdown-toggle,
+.company_tags a:not(:disabled):not(.disabled):active,
+.company_tags a:not(:disabled):not(.disabled).active,
+.show > .company_tags a.dropdown-toggle,
 .onsale:not(:disabled):not(.disabled):active,
 .onsale:not(:disabled):not(.disabled).active,
 .show > .onsale.dropdown-toggle,
@@ -1014,17 +1040,17 @@ article.post.post-password-required
     background-color: #e7044f;
     border-color: #da044a;
 }
-.post-a-job a:not(:disabled):not(.disabled):active:focus,
-.post-a-job a:not(:disabled):not(.disabled).active:focus,
-.show > .post-a-job a.dropdown-toggle:focus,
-.jobhunt_newsletter_widget
+.post-a-company a:not(:disabled):not(.disabled):active:focus,
+.post-a-company a:not(:disabled):not(.disabled).active:focus,
+.show > .post-a-company a.dropdown-toggle:focus,
+.companyhunt_newsletter_widget
     .newsletter-form
     button[type="submit"]:not(:disabled):not(.disabled):active:focus,
-.jobhunt_newsletter_widget
+.companyhunt_newsletter_widget
     .newsletter-form
     button[type="submit"]:not(:disabled):not(.disabled).active:focus,
 .show
-    > .jobhunt_newsletter_widget
+    > .companyhunt_newsletter_widget
     .newsletter-form
     button[type="submit"].dropdown-toggle:focus,
 .checkout-button:not(:disabled):not(.disabled):active:focus,
@@ -1040,64 +1066,70 @@ button[name="woocommerce_checkout_place_order"]:not(:disabled):not(
 .application_button:not(:disabled):not(.disabled):active:focus,
 .application_button:not(:disabled):not(.disabled).active:focus,
 .show > .application_button.dropdown-toggle:focus,
-.job-pricing-inner
-    .job-pricing-features
+.company-pricing-inner
+    .company-pricing-features
     a:not(:disabled):not(.disabled):active:focus,
-.job-pricing-inner
-    .job-pricing-features
+.company-pricing-inner
+    .company-pricing-features
     a:not(:disabled):not(.disabled).active:focus,
-.show > .job-pricing-inner .job-pricing-features a.dropdown-toggle:focus,
-.job-list-tab-section
+.show
+    > .company-pricing-inner
+    .company-pricing-features
+    a.dropdown-toggle:focus,
+.company-list-tab-section
     .nav-tabs
     .nav-link.active:not(:disabled):not(.disabled):active:focus,
-.job-list-tab-section
+.company-list-tab-section
     .nav-tabs
     .nav-link.active:not(:disabled):not(.disabled).active:focus,
-.show > .job-list-tab-section .nav-tabs .nav-link.active.dropdown-toggle:focus,
+.show
+    > .company-list-tab-section
+    .nav-tabs
+    .nav-link.active.dropdown-toggle:focus,
 .contact-form input[type="submit"]:not(:disabled):not(.disabled):active:focus,
 .contact-form input[type="submit"]:not(:disabled):not(.disabled).active:focus,
 .show > .contact-form input[type="submit"].dropdown-toggle:focus,
 .page-template-template-homepage-v4
-    .job-search-block
+    .company-search-block
     form
     button:not(:disabled):not(.disabled):active:focus,
 .page-template-template-homepage-v4
-    .job-search-block
+    .company-search-block
     form
     button:not(:disabled):not(.disabled).active:focus,
 .show
     > .page-template-template-homepage-v4
-    .job-search-block
+    .company-search-block
     form
     button.dropdown-toggle:focus,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active:focus,
 .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active:focus,
 .show
     > .page-template-template-homepage-v5
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle:focus,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:not(:disabled):not(.disabled):active:focus,
 .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button:not(:disabled):not(.disabled).active:focus,
 .show
     > .page-template-template-homepage-v2
-    .job-search-block
+    .company-search-block
     form
-    .job-search-submit
+    .company-search-submit
     button.dropdown-toggle:focus,
 .page-template-template-homepage-v4
     .resume-search-block
@@ -1169,16 +1201,16 @@ button[name="woocommerce_checkout_place_order"]:not(:disabled):not(
     .single-resume-content-navbar
     .contact-candidate-email
     a.dropdown-toggle:focus,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:not(:disabled):not(.disabled):active:focus,
-.job-manager-form
+.company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row:not(:disabled):not(.disabled).active:focus,
 .show
-    > .job-manager-form
+    > .company-manager-form
     fieldset
     .resume-manager-data-row
     .resume-manager-remove-row.dropdown-toggle:focus,
@@ -1189,13 +1221,16 @@ button[name="woocommerce_checkout_place_order"]:not(:disabled):not(
     tfoot
     a:not(:disabled):not(.disabled).active:focus,
 .show > .resume-manager-candidate-dashboard tfoot a.dropdown-toggle:focus,
-.job-manager-job-dashboard-content
+.company-manager-company-dashboard-content
     tfoot
     a:not(:disabled):not(.disabled):active:focus,
-.job-manager-job-dashboard-content
+.company-manager-company-dashboard-content
     tfoot
     a:not(:disabled):not(.disabled).active:focus,
-.show > .job-manager-job-dashboard-content tfoot a.dropdown-toggle:focus,
+.show
+    > .company-manager-company-dashboard-content
+    tfoot
+    a.dropdown-toggle:focus,
 article.post-password-required
     .post-password-form
     input[type="submit"]:not(:disabled):not(.disabled):active:focus,
@@ -1224,16 +1259,16 @@ article.post.post-password-required
 .woocommerce-mini-cart__buttons
     .button.checkout:not(:disabled):not(.disabled).active:focus,
 .show > .woocommerce-mini-cart__buttons .button.checkout.dropdown-toggle:focus,
-.job-manager-form.wp-job-manager-bookmarks-form
+.company-manager-form.wp-company-manager-bookmarks-form
     .remove-bookmark:not(:disabled):not(.disabled):active:focus,
-.job-manager-form.wp-job-manager-bookmarks-form
+.company-manager-form.wp-company-manager-bookmarks-form
     .remove-bookmark:not(:disabled):not(.disabled).active:focus,
 .show
-    > .job-manager-form.wp-job-manager-bookmarks-form
+    > .company-manager-form.wp-company-manager-bookmarks-form
     .remove-bookmark.dropdown-toggle:focus,
-.job_tags a:not(:disabled):not(.disabled):active:focus,
-.job_tags a:not(:disabled):not(.disabled).active:focus,
-.show > .job_tags a.dropdown-toggle:focus,
+.company_tags a:not(:disabled):not(.disabled):active:focus,
+.company_tags a:not(:disabled):not(.disabled).active:focus,
+.show > .company_tags a.dropdown-toggle:focus,
 .onsale:not(:disabled):not(.disabled):active:focus,
 .onsale:not(:disabled):not(.disabled).active:focus,
 .show > .onsale.dropdown-toggle:focus,
@@ -1267,21 +1302,21 @@ article.post.post-password-required
 }
 
 .company-letters ul li:first-child a,
-#submit-job-form > p strong a {
+#submit-company-form > p strong a {
     color: #212529;
     background-color: #8b91dd;
     border-color: #8b91dd;
 }
 .company-letters ul li:first-child a:hover,
-#submit-job-form > p strong a:hover {
+#submit-company-form > p strong a:hover {
     color: #fff;
     background-color: #555;
     border-color: #555;
 }
 .company-letters ul li:first-child a:focus,
 .company-letters ul li:first-child a.focus,
-#submit-job-form > p strong a:focus,
-#submit-job-form > p strong a.focus {
+#submit-company-form > p strong a:focus,
+#submit-company-form > p strong a.focus {
     color: #fff;
     background-color: #555;
     border-color: #555;
@@ -1289,8 +1324,8 @@ article.post.post-password-required
 }
 .company-letters ul li:first-child a.disabled,
 .company-letters ul li:first-child a:disabled,
-#submit-job-form > p strong a.disabled,
-#submit-job-form > p strong a:disabled {
+#submit-company-form > p strong a.disabled,
+#submit-company-form > p strong a:disabled {
     color: #212529;
     background-color: #8b91dd;
     border-color: #8b91dd;
@@ -1298,9 +1333,9 @@ article.post.post-password-required
 .company-letters ul li:first-child a:not(:disabled):not(.disabled):active,
 .company-letters ul li:first-child a:not(:disabled):not(.disabled).active,
 .show > .company-letters ul li:first-child a.dropdown-toggle,
-#submit-job-form > p strong a:not(:disabled):not(.disabled):active,
-#submit-job-form > p strong a:not(:disabled):not(.disabled).active,
-.show > #submit-job-form > p strong a.dropdown-toggle {
+#submit-company-form > p strong a:not(:disabled):not(.disabled):active,
+#submit-company-form > p strong a:not(:disabled):not(.disabled).active,
+.show > #submit-company-form > p strong a.dropdown-toggle {
     color: #fff;
     background-color: #646cd1;
     border-color: #5a62cf;
@@ -1308,26 +1343,26 @@ article.post.post-password-required
 .company-letters ul li:first-child a:not(:disabled):not(.disabled):active:focus,
 .company-letters ul li:first-child a:not(:disabled):not(.disabled).active:focus,
 .show > .company-letters ul li:first-child a.dropdown-toggle:focus,
-#submit-job-form > p strong a:not(:disabled):not(.disabled):active:focus,
-#submit-job-form > p strong a:not(:disabled):not(.disabled).active:focus,
-.show > #submit-job-form > p strong a.dropdown-toggle:focus {
+#submit-company-form > p strong a:not(:disabled):not(.disabled):active:focus,
+#submit-company-form > p strong a:not(:disabled):not(.disabled).active:focus,
+.show > #submit-company-form > p strong a.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(123, 129, 194, 0.5);
 }
 
-.product.featured .job-pricing-inner .job-pricing-features a,
+.product.featured .company-pricing-inner .company-pricing-features a,
 #resume_preview input.button {
     color: #212529;
     background-color: #fff;
     border-color: #fb236a;
 }
-.product.featured .job-pricing-inner .job-pricing-features a:hover,
+.product.featured .company-pricing-inner .company-pricing-features a:hover,
 #resume_preview input.button:hover {
     color: #fff;
     background-color: #555;
     border-color: #555;
 }
-.product.featured .job-pricing-inner .job-pricing-features a:focus,
-.product.featured .job-pricing-inner .job-pricing-features a.focus,
+.product.featured .company-pricing-inner .company-pricing-features a:focus,
+.product.featured .company-pricing-inner .company-pricing-features a.focus,
 #resume_preview input.button:focus,
 #resume_preview input.button.focus {
     color: #fff;
@@ -1335,8 +1370,8 @@ article.post.post-password-required
     border-color: #555;
     box-shadow: 0 0 0 0.2rem rgba(218, 35, 96, 0.5);
 }
-.product.featured .job-pricing-inner .job-pricing-features a.disabled,
-.product.featured .job-pricing-inner .job-pricing-features a:disabled,
+.product.featured .company-pricing-inner .company-pricing-features a.disabled,
+.product.featured .company-pricing-inner .company-pricing-features a:disabled,
 #resume_preview input.button.disabled,
 #resume_preview input.button:disabled {
     color: #212529;
@@ -1344,17 +1379,17 @@ article.post.post-password-required
     border-color: #fb236a;
 }
 .product.featured
-    .job-pricing-inner
-    .job-pricing-features
+    .company-pricing-inner
+    .company-pricing-features
     a:not(:disabled):not(.disabled):active,
 .product.featured
-    .job-pricing-inner
-    .job-pricing-features
+    .company-pricing-inner
+    .company-pricing-features
     a:not(:disabled):not(.disabled).active,
 .show
     > .product.featured
-    .job-pricing-inner
-    .job-pricing-features
+    .company-pricing-inner
+    .company-pricing-features
     a.dropdown-toggle,
 #resume_preview input.button:not(:disabled):not(.disabled):active,
 #resume_preview input.button:not(:disabled):not(.disabled).active,
@@ -1364,17 +1399,17 @@ article.post.post-password-required
     border-color: #da044a;
 }
 .product.featured
-    .job-pricing-inner
-    .job-pricing-features
+    .company-pricing-inner
+    .company-pricing-features
     a:not(:disabled):not(.disabled):active:focus,
 .product.featured
-    .job-pricing-inner
-    .job-pricing-features
+    .company-pricing-inner
+    .company-pricing-features
     a:not(:disabled):not(.disabled).active:focus,
 .show
     > .product.featured
-    .job-pricing-inner
-    .job-pricing-features
+    .company-pricing-inner
+    .company-pricing-features
     a.dropdown-toggle:focus,
 #resume_preview input.button:not(:disabled):not(.disabled):active:focus,
 #resume_preview input.button:not(:disabled):not(.disabled).active:focus,
@@ -1382,9 +1417,15 @@ article.post.post-password-required
     box-shadow: 0 0 0 0.2rem rgba(218, 35, 96, 0.5);
 }
 
-.header-search-icon .job-search-block .job-search-submit button,
-.page-template-template-homepage-v1 .job-search-block .job-search-submit button,
-.page-template-template-homepage-v3 .job-search-block .job-search-submit button,
+.header-search-icon .company-search-block .company-search-submit button,
+.page-template-template-homepage-v1
+    .company-search-block
+    .company-search-submit
+    button,
+.page-template-template-homepage-v3
+    .company-search-block
+    .company-search-submit
+    button,
 .header-search-icon .resume-search-block .resume-search-submit button,
 .page-template-template-homepage-v1
     .resume-search-block
@@ -1396,19 +1437,22 @@ article.post.post-password-required
     button,
 #submit-resume-form .ui-sortable .resume-manager-add-row,
 #submit-resume-form .field .resume-manager-add-row,
-.post-type-archive-job_listing .job-search-block .job-search-submit button {
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
+    button {
     color: #212529;
     background-color: #8b91dd;
     border-color: #8b91dd;
 }
-.header-search-icon .job-search-block .job-search-submit button:hover,
+.header-search-icon .company-search-block .company-search-submit button:hover,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:hover,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:hover,
 .header-search-icon .resume-search-block .resume-search-submit button:hover,
 .page-template-template-homepage-v1
@@ -1421,31 +1465,31 @@ article.post.post-password-required
     button:hover,
 #submit-resume-form .ui-sortable .resume-manager-add-row:hover,
 #submit-resume-form .field .resume-manager-add-row:hover,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:hover {
     color: #fff;
     background-color: #fb236a;
     border-color: #fb236a;
 }
-.header-search-icon .job-search-block .job-search-submit button:focus,
-.header-search-icon .job-search-block .job-search-submit button.focus,
+.header-search-icon .company-search-block .company-search-submit button:focus,
+.header-search-icon .company-search-block .company-search-submit button.focus,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:focus,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.focus,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:focus,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.focus,
 .header-search-icon .resume-search-block .resume-search-submit button:focus,
 .header-search-icon .resume-search-block .resume-search-submit button.focus,
@@ -1469,36 +1513,42 @@ article.post.post-password-required
 #submit-resume-form .ui-sortable .resume-manager-add-row.focus,
 #submit-resume-form .field .resume-manager-add-row:focus,
 #submit-resume-form .field .resume-manager-add-row.focus,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:focus,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button.focus {
     color: #fff;
     background-color: #fb236a;
     border-color: #fb236a;
     box-shadow: 0 0 0 0.2rem rgba(123, 129, 194, 0.5);
 }
-.header-search-icon .job-search-block .job-search-submit button.disabled,
-.header-search-icon .job-search-block .job-search-submit button:disabled,
+.header-search-icon
+    .company-search-block
+    .company-search-submit
+    button.disabled,
+.header-search-icon
+    .company-search-block
+    .company-search-submit
+    button:disabled,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.disabled,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:disabled,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.disabled,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:disabled,
 .header-search-icon .resume-search-block .resume-search-submit button.disabled,
 .header-search-icon .resume-search-block .resume-search-submit button:disabled,
@@ -1522,56 +1572,56 @@ article.post.post-password-required
 #submit-resume-form .ui-sortable .resume-manager-add-row:disabled,
 #submit-resume-form .field .resume-manager-add-row.disabled,
 #submit-resume-form .field .resume-manager-add-row:disabled,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button.disabled,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:disabled {
     color: #212529;
     background-color: #8b91dd;
     border-color: #8b91dd;
 }
 .header-search-icon
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active,
 .header-search-icon
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active,
 .show
     > .header-search-icon
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active,
 .show
     > .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active,
 .show
     > .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle,
 .header-search-icon
     .resume-search-block
@@ -1629,61 +1679,61 @@ article.post.post-password-required
     .field
     .resume-manager-add-row:not(:disabled):not(.disabled).active,
 .show > #submit-resume-form .field .resume-manager-add-row.dropdown-toggle,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active,
 .show
-    > .post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+    > .post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle {
     color: #fff;
     background-color: #646cd1;
     border-color: #5a62cf;
 }
 .header-search-icon
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active:focus,
 .header-search-icon
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active:focus,
 .show
     > .header-search-icon
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle:focus,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active:focus,
 .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active:focus,
 .show
     > .page-template-template-homepage-v1
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle:focus,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active:focus,
 .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active:focus,
 .show
     > .page-template-template-homepage-v3
-    .job-search-block
-    .job-search-submit
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle:focus,
 .header-search-icon
     .resume-search-block
@@ -1744,18 +1794,18 @@ article.post.post-password-required
     > #submit-resume-form
     .field
     .resume-manager-add-row.dropdown-toggle:focus,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled):active:focus,
-.post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+.post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button:not(:disabled):not(.disabled).active:focus,
 .show
-    > .post-type-archive-job_listing
-    .job-search-block
-    .job-search-submit
+    > .post-type-archive-company_listing
+    .company-search-block
+    .company-search-submit
     button.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(123, 129, 194, 0.5);
 }
@@ -1763,7 +1813,7 @@ article.post.post-password-required
 #customer_login .woocommerce-Button,
 .woocommerce-form.woocommerce-form-login .woocommerce-Button,
 .woocommerce-ResetPassword .woocommerce-Button,
-.jobhunt-register-login-form .tab-content input[type="submit"] {
+.companyhunt-register-login-form .tab-content input[type="submit"] {
     color: #fff;
     background-color: #232a79;
     border-color: #232a79;
@@ -1771,7 +1821,7 @@ article.post.post-password-required
 #customer_login .woocommerce-Button:hover,
 .woocommerce-form.woocommerce-form-login .woocommerce-Button:hover,
 .woocommerce-ResetPassword .woocommerce-Button:hover,
-.jobhunt-register-login-form .tab-content input[type="submit"]:hover {
+.companyhunt-register-login-form .tab-content input[type="submit"]:hover {
     color: #fff;
     background-color: #fb236a;
     border-color: #fb236a;
@@ -1782,8 +1832,8 @@ article.post.post-password-required
 .woocommerce-form.woocommerce-form-login .woocommerce-Button.focus,
 .woocommerce-ResetPassword .woocommerce-Button:focus,
 .woocommerce-ResetPassword .woocommerce-Button.focus,
-.jobhunt-register-login-form .tab-content input[type="submit"]:focus,
-.jobhunt-register-login-form .tab-content input[type="submit"].focus {
+.companyhunt-register-login-form .tab-content input[type="submit"]:focus,
+.companyhunt-register-login-form .tab-content input[type="submit"].focus {
     color: #fff;
     background-color: #fb236a;
     border-color: #fb236a;
@@ -1795,8 +1845,8 @@ article.post.post-password-required
 .woocommerce-form.woocommerce-form-login .woocommerce-Button:disabled,
 .woocommerce-ResetPassword .woocommerce-Button.disabled,
 .woocommerce-ResetPassword .woocommerce-Button:disabled,
-.jobhunt-register-login-form .tab-content input[type="submit"].disabled,
-.jobhunt-register-login-form .tab-content input[type="submit"]:disabled {
+.companyhunt-register-login-form .tab-content input[type="submit"].disabled,
+.companyhunt-register-login-form .tab-content input[type="submit"]:disabled {
     color: #fff;
     background-color: #232a79;
     border-color: #232a79;
@@ -1816,14 +1866,14 @@ article.post.post-password-required
 .woocommerce-ResetPassword
     .woocommerce-Button:not(:disabled):not(.disabled).active,
 .show > .woocommerce-ResetPassword .woocommerce-Button.dropdown-toggle,
-.jobhunt-register-login-form
+.companyhunt-register-login-form
     .tab-content
     input[type="submit"]:not(:disabled):not(.disabled):active,
-.jobhunt-register-login-form
+.companyhunt-register-login-form
     .tab-content
     input[type="submit"]:not(:disabled):not(.disabled).active,
 .show
-    > .jobhunt-register-login-form
+    > .companyhunt-register-login-form
     .tab-content
     input[type="submit"].dropdown-toggle {
     color: #fff;
@@ -1845,28 +1895,28 @@ article.post.post-password-required
 .woocommerce-ResetPassword
     .woocommerce-Button:not(:disabled):not(.disabled).active:focus,
 .show > .woocommerce-ResetPassword .woocommerce-Button.dropdown-toggle:focus,
-.jobhunt-register-login-form
+.companyhunt-register-login-form
     .tab-content
     input[type="submit"]:not(:disabled):not(.disabled):active:focus,
-.jobhunt-register-login-form
+.companyhunt-register-login-form
     .tab-content
     input[type="submit"]:not(:disabled):not(.disabled).active:focus,
 .show
-    > .jobhunt-register-login-form
+    > .companyhunt-register-login-form
     .tab-content
     input[type="submit"].dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(68, 74, 141, 0.5);
 }
 
 @media (max-width: 991.98px) {
-    .header-search-icon .job-search-block .job-search-submit button,
+    .header-search-icon .company-search-block .company-search-submit button,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button,
     .header-search-icon .resume-search-block .resume-search-submit button,
     .page-template-template-homepage-v1
@@ -1881,14 +1931,17 @@ article.post.post-password-required
         background-color: #232a79;
         border-color: #232a79;
     }
-    .header-search-icon .job-search-block .job-search-submit button:hover,
+    .header-search-icon
+        .company-search-block
+        .company-search-submit
+        button:hover,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:hover,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:hover,
     .header-search-icon .resume-search-block .resume-search-submit button:hover,
     .page-template-template-homepage-v1
@@ -1903,23 +1956,29 @@ article.post.post-password-required
         background-color: #fb236a;
         border-color: #fb236a;
     }
-    .header-search-icon .job-search-block .job-search-submit button:focus,
-    .header-search-icon .job-search-block .job-search-submit button.focus,
+    .header-search-icon
+        .company-search-block
+        .company-search-submit
+        button:focus,
+    .header-search-icon
+        .company-search-block
+        .company-search-submit
+        button.focus,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:focus,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.focus,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:focus,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.focus,
     .header-search-icon .resume-search-block .resume-search-submit button:focus,
     .header-search-icon .resume-search-block .resume-search-submit button.focus,
@@ -1944,23 +2003,29 @@ article.post.post-password-required
         border-color: #fb236a;
         box-shadow: 0 0 0 0.2rem rgba(68, 74, 141, 0.5);
     }
-    .header-search-icon .job-search-block .job-search-submit button.disabled,
-    .header-search-icon .job-search-block .job-search-submit button:disabled,
+    .header-search-icon
+        .company-search-block
+        .company-search-submit
+        button.disabled,
+    .header-search-icon
+        .company-search-block
+        .company-search-submit
+        button:disabled,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.disabled,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:disabled,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.disabled,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:disabled,
     .header-search-icon
         .resume-search-block
@@ -1991,43 +2056,43 @@ article.post.post-password-required
         border-color: #232a79;
     }
     .header-search-icon
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled):active,
     .header-search-icon
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled).active,
     .show
         > .header-search-icon
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.dropdown-toggle,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled):active,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled).active,
     .show
         > .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.dropdown-toggle,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled):active,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled).active,
     .show
         > .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.dropdown-toggle,
     .header-search-icon
         .resume-search-block
@@ -2073,43 +2138,43 @@ article.post.post-password-required
         border-color: #151947;
     }
     .header-search-icon
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled):active:focus,
     .header-search-icon
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled).active:focus,
     .show
         > .header-search-icon
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.dropdown-toggle:focus,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled):active:focus,
     .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled).active:focus,
     .show
         > .page-template-template-homepage-v1
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.dropdown-toggle:focus,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled):active:focus,
     .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button:not(:disabled):not(.disabled).active:focus,
     .show
         > .page-template-template-homepage-v3
-        .job-search-block
-        .job-search-submit
+        .company-search-block
+        .company-search-submit
         button.dropdown-toggle:focus,
     .header-search-icon
         .resume-search-block
@@ -2192,27 +2257,29 @@ div.how-it-works-image .image-gradient::before {
 
 .post-readmore a,
 input[type="submit"],
-.job-manager-form input[type="button"],
+.company-manager-form input[type="button"],
 .comment-respond .comment-form input[type="submit"],
-.job-categories-section .action .action-link,
-.job-list-section .load_more_jobs,
-.job-list-tab-section .load_more_jobs,
+.company-categories-section .action .action-link,
+.company-list-section .load_more_companys,
+.company-list-tab-section .load_more_companys,
 .woocommerce-MyAccount-content .woocommerce-Address .edit,
 .apply_with_resume input[type="submit"],
-.job-manager-form .wpjmsq-job-questions-wrapper .remove_question_item {
+.company-manager-form .wpjmsq-company-questions-wrapper .remove_question_item {
     color: #fb236a;
     border-color: #fb236a;
 }
 .post-readmore a:hover,
 input[type="submit"]:hover,
-.job-manager-form input[type="button"]:hover,
+.company-manager-form input[type="button"]:hover,
 .comment-respond .comment-form input[type="submit"]:hover,
-.job-categories-section .action .action-link:hover,
-.job-list-section .load_more_jobs:hover,
-.job-list-tab-section .load_more_jobs:hover,
+.company-categories-section .action .action-link:hover,
+.company-list-section .load_more_companys:hover,
+.company-list-tab-section .load_more_companys:hover,
 .woocommerce-MyAccount-content .woocommerce-Address .edit:hover,
 .apply_with_resume input[type="submit"]:hover,
-.job-manager-form .wpjmsq-job-questions-wrapper .remove_question_item:hover {
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
+    .remove_question_item:hover {
     color: #fff;
     background-color: #fb236a;
     border-color: #fb236a;
@@ -2221,44 +2288,52 @@ input[type="submit"]:hover,
 .post-readmore a.focus,
 input[type="submit"]:focus,
 input[type="submit"].focus,
-.job-manager-form input[type="button"]:focus,
-.job-manager-form input[type="button"].focus,
+.company-manager-form input[type="button"]:focus,
+.company-manager-form input[type="button"].focus,
 .comment-respond .comment-form input[type="submit"]:focus,
 .comment-respond .comment-form input[type="submit"].focus,
-.job-categories-section .action .action-link:focus,
-.job-categories-section .action .action-link.focus,
-.job-list-section .load_more_jobs:focus,
-.job-list-section .load_more_jobs.focus,
-.job-list-tab-section .load_more_jobs:focus,
-.job-list-tab-section .load_more_jobs.focus,
+.company-categories-section .action .action-link:focus,
+.company-categories-section .action .action-link.focus,
+.company-list-section .load_more_companys:focus,
+.company-list-section .load_more_companys.focus,
+.company-list-tab-section .load_more_companys:focus,
+.company-list-tab-section .load_more_companys.focus,
 .woocommerce-MyAccount-content .woocommerce-Address .edit:focus,
 .woocommerce-MyAccount-content .woocommerce-Address .edit.focus,
 .apply_with_resume input[type="submit"]:focus,
 .apply_with_resume input[type="submit"].focus,
-.job-manager-form .wpjmsq-job-questions-wrapper .remove_question_item:focus,
-.job-manager-form .wpjmsq-job-questions-wrapper .remove_question_item.focus {
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
+    .remove_question_item:focus,
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
+    .remove_question_item.focus {
     box-shadow: 0 0 0 0.2rem rgba(251, 35, 106, 0.5);
 }
 .post-readmore a.disabled,
 .post-readmore a:disabled,
 input[type="submit"].disabled,
 input[type="submit"]:disabled,
-.job-manager-form input[type="button"].disabled,
-.job-manager-form input[type="button"]:disabled,
+.company-manager-form input[type="button"].disabled,
+.company-manager-form input[type="button"]:disabled,
 .comment-respond .comment-form input[type="submit"].disabled,
 .comment-respond .comment-form input[type="submit"]:disabled,
-.job-categories-section .action .action-link.disabled,
-.job-categories-section .action .action-link:disabled,
-.job-list-section .load_more_jobs.disabled,
-.job-list-section .load_more_jobs:disabled,
-.job-list-tab-section .load_more_jobs.disabled,
-.job-list-tab-section .load_more_jobs:disabled,
+.company-categories-section .action .action-link.disabled,
+.company-categories-section .action .action-link:disabled,
+.company-list-section .load_more_companys.disabled,
+.company-list-section .load_more_companys:disabled,
+.company-list-tab-section .load_more_companys.disabled,
+.company-list-tab-section .load_more_companys:disabled,
 .woocommerce-MyAccount-content .woocommerce-Address .edit.disabled,
 .woocommerce-MyAccount-content .woocommerce-Address .edit:disabled,
 .apply_with_resume input[type="submit"].disabled,
 .apply_with_resume input[type="submit"]:disabled,
-.job-manager-form .wpjmsq-job-questions-wrapper .remove_question_item.disabled,
-.job-manager-form .wpjmsq-job-questions-wrapper .remove_question_item:disabled {
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
+    .remove_question_item.disabled,
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
+    .remove_question_item:disabled {
     color: #fb236a;
     background-color: transparent;
 }
@@ -2268,9 +2343,9 @@ input[type="submit"]:disabled,
 input[type="submit"]:not(:disabled):not(.disabled):active,
 input[type="submit"]:not(:disabled):not(.disabled).active,
 .show > input[type="submit"].dropdown-toggle,
-.job-manager-form input[type="button"]:not(:disabled):not(.disabled):active,
-.job-manager-form input[type="button"]:not(:disabled):not(.disabled).active,
-.show > .job-manager-form input[type="button"].dropdown-toggle,
+.company-manager-form input[type="button"]:not(:disabled):not(.disabled):active,
+.company-manager-form input[type="button"]:not(:disabled):not(.disabled).active,
+.show > .company-manager-form input[type="button"].dropdown-toggle,
 .comment-respond
     .comment-form
     input[type="submit"]:not(:disabled):not(.disabled):active,
@@ -2278,19 +2353,21 @@ input[type="submit"]:not(:disabled):not(.disabled).active,
     .comment-form
     input[type="submit"]:not(:disabled):not(.disabled).active,
 .show > .comment-respond .comment-form input[type="submit"].dropdown-toggle,
-.job-categories-section
+.company-categories-section
     .action
     .action-link:not(:disabled):not(.disabled):active,
-.job-categories-section
+.company-categories-section
     .action
     .action-link:not(:disabled):not(.disabled).active,
-.show > .job-categories-section .action .action-link.dropdown-toggle,
-.job-list-section .load_more_jobs:not(:disabled):not(.disabled):active,
-.job-list-section .load_more_jobs:not(:disabled):not(.disabled).active,
-.show > .job-list-section .load_more_jobs.dropdown-toggle,
-.job-list-tab-section .load_more_jobs:not(:disabled):not(.disabled):active,
-.job-list-tab-section .load_more_jobs:not(:disabled):not(.disabled).active,
-.show > .job-list-tab-section .load_more_jobs.dropdown-toggle,
+.show > .company-categories-section .action .action-link.dropdown-toggle,
+.company-list-section .load_more_companys:not(:disabled):not(.disabled):active,
+.company-list-section .load_more_companys:not(:disabled):not(.disabled).active,
+.show > .company-list-section .load_more_companys.dropdown-toggle,
+.company-list-tab-section
+    .load_more_companys:not(:disabled):not(.disabled):active,
+.company-list-tab-section
+    .load_more_companys:not(:disabled):not(.disabled).active,
+.show > .company-list-tab-section .load_more_companys.dropdown-toggle,
 .woocommerce-MyAccount-content
     .woocommerce-Address
     .edit:not(:disabled):not(.disabled):active,
@@ -2304,15 +2381,15 @@ input[type="submit"]:not(:disabled):not(.disabled).active,
 .apply_with_resume input[type="submit"]:not(:disabled):not(.disabled):active,
 .apply_with_resume input[type="submit"]:not(:disabled):not(.disabled).active,
 .show > .apply_with_resume input[type="submit"].dropdown-toggle,
-.job-manager-form
-    .wpjmsq-job-questions-wrapper
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
     .remove_question_item:not(:disabled):not(.disabled):active,
-.job-manager-form
-    .wpjmsq-job-questions-wrapper
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
     .remove_question_item:not(:disabled):not(.disabled).active,
 .show
-    > .job-manager-form
-    .wpjmsq-job-questions-wrapper
+    > .company-manager-form
+    .wpjmsq-company-questions-wrapper
     .remove_question_item.dropdown-toggle {
     color: #fff;
     background-color: #fb236a;
@@ -2324,11 +2401,11 @@ input[type="submit"]:not(:disabled):not(.disabled).active,
 input[type="submit"]:not(:disabled):not(.disabled):active:focus,
 input[type="submit"]:not(:disabled):not(.disabled).active:focus,
 .show > input[type="submit"].dropdown-toggle:focus,
-.job-manager-form
+.company-manager-form
     input[type="button"]:not(:disabled):not(.disabled):active:focus,
-.job-manager-form
+.company-manager-form
     input[type="button"]:not(:disabled):not(.disabled).active:focus,
-.show > .job-manager-form input[type="button"].dropdown-toggle:focus,
+.show > .company-manager-form input[type="button"].dropdown-toggle:focus,
 .comment-respond
     .comment-form
     input[type="submit"]:not(:disabled):not(.disabled):active:focus,
@@ -2339,21 +2416,23 @@ input[type="submit"]:not(:disabled):not(.disabled).active:focus,
     > .comment-respond
     .comment-form
     input[type="submit"].dropdown-toggle:focus,
-.job-categories-section
+.company-categories-section
     .action
     .action-link:not(:disabled):not(.disabled):active:focus,
-.job-categories-section
+.company-categories-section
     .action
     .action-link:not(:disabled):not(.disabled).active:focus,
-.show > .job-categories-section .action .action-link.dropdown-toggle:focus,
-.job-list-section .load_more_jobs:not(:disabled):not(.disabled):active:focus,
-.job-list-section .load_more_jobs:not(:disabled):not(.disabled).active:focus,
-.show > .job-list-section .load_more_jobs.dropdown-toggle:focus,
-.job-list-tab-section
-    .load_more_jobs:not(:disabled):not(.disabled):active:focus,
-.job-list-tab-section
-    .load_more_jobs:not(:disabled):not(.disabled).active:focus,
-.show > .job-list-tab-section .load_more_jobs.dropdown-toggle:focus,
+.show > .company-categories-section .action .action-link.dropdown-toggle:focus,
+.company-list-section
+    .load_more_companys:not(:disabled):not(.disabled):active:focus,
+.company-list-section
+    .load_more_companys:not(:disabled):not(.disabled).active:focus,
+.show > .company-list-section .load_more_companys.dropdown-toggle:focus,
+.company-list-tab-section
+    .load_more_companys:not(:disabled):not(.disabled):active:focus,
+.company-list-tab-section
+    .load_more_companys:not(:disabled):not(.disabled).active:focus,
+.show > .company-list-tab-section .load_more_companys.dropdown-toggle:focus,
 .woocommerce-MyAccount-content
     .woocommerce-Address
     .edit:not(:disabled):not(.disabled):active:focus,
@@ -2369,15 +2448,15 @@ input[type="submit"]:not(:disabled):not(.disabled).active:focus,
 .apply_with_resume
     input[type="submit"]:not(:disabled):not(.disabled).active:focus,
 .show > .apply_with_resume input[type="submit"].dropdown-toggle:focus,
-.job-manager-form
-    .wpjmsq-job-questions-wrapper
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
     .remove_question_item:not(:disabled):not(.disabled):active:focus,
-.job-manager-form
-    .wpjmsq-job-questions-wrapper
+.company-manager-form
+    .wpjmsq-company-questions-wrapper
     .remove_question_item:not(:disabled):not(.disabled).active:focus,
 .show
-    > .job-manager-form
-    .wpjmsq-job-questions-wrapper
+    > .company-manager-form
+    .wpjmsq-company-questions-wrapper
     .remove_question_item.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(251, 35, 106, 0.5);
 }
@@ -2591,16 +2670,16 @@ input[type="submit"]:not(:disabled):not(.disabled).active:focus,
     box-shadow: 0 0 0 0.2rem rgba(111, 111, 111, 0.5);
 }
 
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span {
     color: #fff;
     border-color: #fff;
 }
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:hover {
@@ -2608,44 +2687,44 @@ input[type="submit"]:not(:disabled):not(.disabled).active:focus,
     background-color: #fff;
     border-color: #fff;
 }
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:focus,
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span.focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span.disabled,
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:disabled {
     color: #fff;
     background-color: transparent;
 }
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:not(:disabled):not(.disabled):active,
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:not(:disabled):not(.disabled).active,
 .show
-    > .type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+    > .type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span.dropdown-toggle {
@@ -2653,19 +2732,19 @@ input[type="submit"]:not(:disabled):not(.disabled).active:focus,
     background-color: #fff;
     border-color: #fff;
 }
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:not(:disabled):not(.disabled):active:focus,
-.type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+.type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span:not(:disabled):not(.disabled).active:focus,
 .show
-    > .type-list-classic.post-type-archive-job_listing
-    .jobhunt-wpjm-active-filters
+    > .type-list-classic.post-type-archive-company_listing
+    .companyhunt-wpjm-active-filters
     > ul
     .chosen
     span.dropdown-toggle:focus {

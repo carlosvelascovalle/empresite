@@ -3,7 +3,7 @@
         <div class="container">
             <div class="footer-widgets-inner columns-4">
                 <div class="footer-widget footer-widget-1">
-                    <div id="jobhunt_footer_logo_widget-1" class="widget footer-logo-widget">
+                    <div id="companyhunt_footer_logo_widget-1" class="widget footer-logo-widget">
                         <div class="footer-logo">
                             <a href="" class="custom-logo-link" rel="home"
                                 style="font-size: 26px; font-weight: 800;
@@ -16,7 +16,7 @@
                         <div class="textwidget">
                             <address class="footer-contact"><br>
                                 <br>
-                                <a href="mailto:info@jobhunt.com">info@empresite.org</a>
+                                <a href="mailto:info@companyhunt.com">info@empresite.org</a>
                             </address>
                         </div>
                     </div>
@@ -50,13 +50,11 @@
                         <div class="menu-frequently-asked-questions-menu-container">
                             <ul id="menu-frequently-asked-questions-menu" class="menu">
                                 <li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <div class="menu-item-inner"><a
-                                            href="">Politica
+                                    <div class="menu-item-inner"><a href="">Politica
                                             de Privacidad</a></div>
                                 </li>
                                 <li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <div class="menu-item-inner"><a
-                                            href="">Politica
+                                    <div class="menu-item-inner"><a href="">Politica
                                             de Cookies</a></div>
                                 </li>
                             </ul>
@@ -67,8 +65,8 @@
                     <div id="nav_menu-2" class="widget widget_nav_menu"><span class="gamma widget-title">Listado de
                             Empresas
                         </span>
-                        <div class="menu-find-jobs-menu-container">
-                            <ul id="menu-find-jobs-menu" class="menu">
+                        <div class="menu-find-companys-menu-container">
+                            <ul id="menu-find-companys-menu" class="menu">
                                 <li id="menu-item-371"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371">
                                     <div class="menu-item-inner"><a href="/?search=Cantabria">Cantabria</a>
@@ -86,7 +84,7 @@
     <div class="footer-copyright-bar">
         <div class="container">
             <div class="footer-copyright-bar-inner">
-                <div class="copyright-info">© 2023 <a href="https://demo2.madrasthemes.com/jobhunt/">Empresite</a>.
+                <div class="copyright-info">© 2023 <a href="https://demo2.madrasthemes.com/companyhunt/">Empresite</a>.
                     Todos los derechos reservados.
                     Diseñado por <a href="https://seoking.es">Agencia de Growth Hacking</a></div>
             </div>
