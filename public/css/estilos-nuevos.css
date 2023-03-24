@@ -1,18 +1,47 @@
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+span,
+li,
+ul,
+ol,
+button,
+input,
+textarea,
+select,
+option,
+div {
+    font-family: "Poppins", "Quicksand", sans-serif !important;
+}
 h1 {
-    font-family: "Poppins";
     font-size: 65px !important;
     font-weight: 700 !important;
     line-height: 81.25px !important;
     margin: 12px 0px 24px 0px !important;
 }
 h2 {
-    font-family: "Poppins";
     font-size: 17px !important;
     font-weight: 700 !important;
     line-height: 22.1px !important;
     margin: 0px 0px 24px 0px !important;
+}
+
+h2.section-sub-title {
+    color: white !important;
+}
+
+h3.company-listing-loop-company__title,
+.company-details .company-listing-company strong {
+    color: #123f81 !important;
+}
+h3.company-listing-loop-company__title::after {
+    display: none !important;
 }
 /* BUSCADOR */
 
