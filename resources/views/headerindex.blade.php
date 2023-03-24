@@ -21,8 +21,10 @@
                             autocomplete="off" value="{{ $search }}">
                     </div>
                     <div class="company-search-submit">
-                        <button type="submit" value="Search"><i class="la la-search"></i><span
-                                class="company-search-text">Search</span></button>
+                        <button type="submit" value="Search">
+                            <div class="button-container-icon"><i class="la la-search"></i></div><span
+                                class="company-search-text">Search</span>
+                        </button>
                     </div>
                 </form>
             </div>
