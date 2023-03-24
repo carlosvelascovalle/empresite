@@ -1,3 +1,15 @@
+/* FUENTES */
+
+h1 {
+    font-family: "Poppins";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 81.25px;
+    margin: 12px 0px 24px 0px;
+}
+
+/* BUSCADOR */
+
 form.search-company-form {
     width: 100vw;
     max-width: 1140px;
