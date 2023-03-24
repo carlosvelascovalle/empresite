@@ -13,14 +13,21 @@ form #search {
 }
 form .company-search-submit button {
     border-radius: 0 10px 10px 0 !important;
-    background: #f9fafa;
+    background: #f9fafa !important;
 }
-
+form .company-search-submit .button-container-icon {
+    height: 41px;
+    width: 41px;
+    padding: 9px;
+}
+form .company-search-submit button i {
+    font-size: 22px !important;
+}
 form .company-search-keywords::after {
     display: none;
 }
 
 form .button-container-icon {
     border-radius: 50%;
-    background: radial-gradient(#123f81, #43dad5);
+    background: linear-gradient(#43dad5, #123f81);
 }
