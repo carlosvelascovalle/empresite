@@ -1,11 +1,11 @@
 /* FUENTES */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 h1 {
     font-family: "Poppins";
-    font-size: 65px;
-    font-weight: 700;
-    line-height: 81.25px;
-    margin: 12px 0px 24px 0px;
+    font-size: 65px !important;
+    font-weight: 700 !important;
+    line-height: 81.25px !important;
+    margin: 12px 0px 24px 0px !important;
 }
 
 /* BUSCADOR */
