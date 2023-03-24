@@ -37,3 +37,14 @@ form .button-container-icon {
     + .site-content-page-header::after {
     background: #123f81 !important;
 }
+
+.jh-scroll-to a:hover i {
+    color: #123f81 !important;
+}
+.jh-scroll-to a:hover {
+    border-color: #43dad5 !important;
+}
+.jh-scroll-to a:hover i {
+    background: #43dad5 !important;
+    color: white !important;
+}
