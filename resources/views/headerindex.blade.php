@@ -2,6 +2,7 @@
 <title>EMPRESITE | El Mejor Buscador de Empresas</title>
 <meta name="description"
     content="Empresite es el lugar ideal para encontrar las empresas que necesitas. ¡No busques más, Empresite es tu guía para encontrar lo que necesitas en el mundo empresarial!">
+<link rel="stylesheet" href="{{ asset('css/estilos-nuevos.css') }}">
 @include('header')
 <header class="site-content-page-header"
     style="background: url(/img/listado-de-empresas.jpg) center center no-repeat fixed">
@@ -12,7 +13,7 @@
                 <h2 class="section-sub-title">Encuentra todas las empresas en nuestro listado de empresas</h2>
             </div>
             <div class="company-search-form">
-                <form method="GET">
+                <form class="search-company-form" method="GET">
                     <div class="company-search-keywords">
                         <label class="sr-only" for="search">Keywords</label>
                         <input type="text" id="search" name="search"
