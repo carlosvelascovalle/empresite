@@ -38,13 +38,15 @@ form .button-container-icon {
     background: #123f81 !important;
 }
 
-.jh-scroll-to a:hover i {
+.jh-scroll-to i {
     color: #123f81 !important;
 }
-.jh-scroll-to a:hover {
+.jh-scroll-to a:hover,
+.jh-scroll-to a:focus {
     border-color: #43dad5 !important;
 }
-.jh-scroll-to a:hover i {
+.jh-scroll-to a:hover i,
+.jh-scroll-to a:focus i {
     background: #43dad5 !important;
     color: white !important;
 }
