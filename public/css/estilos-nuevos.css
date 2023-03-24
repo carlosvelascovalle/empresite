@@ -3,14 +3,24 @@ form.search-company-form {
     max-width: 1140px;
 }
 form .company-search-keywords {
-    padding-right: 0;
+    padding-right: 0 !important;
 }
 form .company-search-submit {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 form #search {
     border-radius: 10px 0 0 10px;
 }
 form .company-search-submit button {
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0 !important;
+    background: #f9fafa;
+}
+
+form .company-search-keywords::after {
+    display: none;
+}
+
+form .button-container-icon {
+    border-radius: 50%;
+    background: radial-gradient(#123f81, #43dad5);
 }
