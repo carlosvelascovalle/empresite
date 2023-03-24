@@ -12,7 +12,7 @@
                 <h2 class="section-sub-title">Encuentra todas las empresas en nuestro listado de empresas</h2>
             </div>
             <div class="company-search-form">
-                <form method="GET">
+                <form class="search-company-form" method="GET">
                     <div class="company-search-keywords">
                         <label class="sr-only" for="search">Keywords</label>
                         <input type="text" id="search" name="search"

@@ -1,0 +1,16 @@
+form.search-company-form {
+    width: 100vw;
+    max-width: 1140px;
+}
+form .company-search-keywords {
+    padding-right: 0;
+}
+form .company-search-submit {
+    padding-left: 0;
+}
+form #search {
+    border-radius: 10px 0 0 10px;
+}
+form .company-search-submit button {
+    border-radius: 0 10px 10px 0;
+}

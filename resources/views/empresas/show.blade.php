@@ -67,7 +67,7 @@
                                                     <h6>Dirección</h6>
                                                     <div class="single-company-listing-overview__detail-content--value">
                                                         <div class="location"><a class="google_map_link"
-                                                                href="https://maps.google.com/maps?q={{ $empresa->direccion }}&amp;zoom=21&amp;maptype=roadmap&amp;sensor=false"
+                                                                href="https://maps.google.com/maps?q={{ $empresa->direccion }}&amp;zoom=25&amp;maptype=roadmap&amp;sensor=false"
                                                                 target="_blank">{{ $empresa->direccion }},
                                                                 {{ $empresa->localidad }}, {{ $empresa->provincia }}</a>
                                                         </div>
