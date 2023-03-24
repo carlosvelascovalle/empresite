@@ -24,7 +24,7 @@ form .company-search-submit button i {
     font-size: 22px !important;
 }
 form .company-search-keywords::after {
-    display: none;
+    display: none !important;
 }
 
 form .button-container-icon {
