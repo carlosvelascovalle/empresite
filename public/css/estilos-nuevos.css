@@ -43,7 +43,7 @@ h3.company-listing-loop-company__title,
 h3.company-listing-loop-company__title::after {
     display: none !important;
 }
-/* */
+/* HEADER */
 header.site-content-page-header {
     background-size: cover !important;
 }
