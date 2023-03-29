@@ -8,10 +8,7 @@
     style="background: url(/img/listado-de-empresas.jpg) center center no-repeat fixed">
     <div class="site-content-page-header-inner">
         <div class="company-search-block">
-            <div class="section-header">
-                <h1 class="section-title">El Mejor Buscador de Empresas</h1>
-                <h2 class="section-sub-title">Encuentra todas las empresas en nuestro listado de empresas</h2>
-            </div>
+
             <div class="company-search-form">
                 <form class="search-company-form" method="GET">
                     <div class="company-search-keywords">
@@ -27,6 +24,10 @@
                         </button>
                     </div>
                 </form>
+            </div>
+            <div class="section-header">
+                <h1 class="section-title">El Mejor Buscador de Empresas</h1>
+                <h2 class="section-sub-title">Encuentra todas las empresas en nuestro listado de empresas</h2>
             </div>
         </div>
         <div class="jh-scroll-to">

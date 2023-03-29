@@ -43,6 +43,24 @@ h3.company-listing-loop-company__title,
 h3.company-listing-loop-company__title::after {
     display: none !important;
 }
+/* */
+header.site-content-page-header {
+    background-size: cover;
+}
+
+.page-template-template-homepage-v1 .site-content-page-header-inner {
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+header .sticky-wrapper,
+#content {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header h1,
+header h2 {
+    text-align: left;
+}
 /* BUSCADOR */
 
 form.search-company-form {
