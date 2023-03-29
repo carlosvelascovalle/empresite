@@ -254,7 +254,8 @@
                                     </div>
                                 </div>
                                 <div class="site-branding">
-                                    <a href="" class="custom-logo-link" rel="home">
+                                    <a href="/" class="custom-logo-link" rel="home">
+                                        EMPRESITE.ORG
                                     </a>
                                 </div>
                                 <ul class="header-menu">
