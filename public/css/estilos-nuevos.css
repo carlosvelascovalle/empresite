@@ -152,7 +152,7 @@ form .button-container-icon {
     grid-gap: 3vw;
 }
 .company_listings > nav {
-    grid-column: 2;
+    margin-bottom: 3vw;
 }
 .company_listings > nav > nav {
     gap: 1rem;
