@@ -57,6 +57,10 @@ header .sticky-wrapper,
     max-width: 1170px !important;
     margin: 0 auto !important;
 }
+header .section-heder {
+    max-width: 1110px;
+    margin: auto;
+}
 header h1,
 header h2 {
     text-align: left !important;
