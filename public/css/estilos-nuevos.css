@@ -148,7 +148,7 @@ form .button-container-icon {
 .company_listings {
     display: grid !important;
     grid-auto-rows: auto;
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 3vw;
 }
 .company_listings > nav {
