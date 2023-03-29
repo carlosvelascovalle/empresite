@@ -58,12 +58,19 @@ header .sticky-wrapper,
     margin: 0 auto !important;
 }
 header .section-heder {
-    max-width: 1110px;
-    margin: auto;
+    max-width: 1110px !important;
+    margin: auto !important;
 }
 header h1,
 header h2 {
     text-align: left !important;
+}
+@media (max-width: 1180px) {
+    form.search-company-form,
+    header .sticky-wrapper,
+    #content {
+        max-width: 75vw !important;
+    }
 }
 /* BUSCADOR */
 
