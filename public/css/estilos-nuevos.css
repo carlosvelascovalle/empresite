@@ -82,6 +82,12 @@ header h1 {
         flex-wrap: nowrap !important;
         margin: auto !important;
     }
+    form.company-search-keywords {
+        width: 75% !important;
+    }
+    form.company-search-submit {
+        width: 25% !important;
+    }
 }
 /* BUSCADOR */
 
