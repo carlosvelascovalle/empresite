@@ -143,3 +143,12 @@ form .button-container-icon {
     background: #43dad5 !important;
     color: white !important;
 }
+
+/* SECCION LISTA DE EMPRESAS */
+
+.company_listings {
+    display: grid !important;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3vw;
+}
