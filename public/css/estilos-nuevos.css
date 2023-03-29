@@ -45,21 +45,21 @@ h3.company-listing-loop-company__title::after {
 }
 /* */
 header.site-content-page-header {
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .page-template-template-homepage-v1 .site-content-page-header-inner {
-    padding-top: 125px;
-    padding-bottom: 200px;
+    padding-top: 125px !important;
+    padding-bottom: 200px !important;
 }
 header .sticky-wrapper,
 #content {
-    max-width: 1170px;
-    margin: 0 auto;
+    max-width: 1170px !important;
+    margin: 0 auto !important;
 }
 header h1,
 header h2 {
-    text-align: left;
+    text-align: left !important;
 }
 /* BUSCADOR */
 
