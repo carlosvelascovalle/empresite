@@ -22,7 +22,7 @@ class EmpresasController extends Controller
             ->orWhere('actividad_cnae', 'like', '%' . $search . '%')
             ->orWhere('forma_juridica', 'like', '%' . $search . '%')
             ->orWhere('objeto_social', 'like', '%' . $search . '%')->orderBy('denominacion', 'asc');
-        $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas');
+        $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas')->orderBy('denominacion');
         return view('empresas.index')
             ->with('empresas', $empresas)
             ->with('all', $all)
@@ -31,7 +31,7 @@ class EmpresasController extends Controller
 
     public function show($slug, Request $request)
     {
-        $empresa = Empresa::where('slug',$slug)->firstOrFail();
+        $empresa = Empresa::where('slug', $slug)->firstOrFail();
         $search = $request->get('search');
         $all = Empresa::where('denominacion', 'like', '%' . $search . '%')
             ->orWhere('cif', 'like', '%' . $search . '%')
@@ -40,9 +40,9 @@ class EmpresasController extends Controller
             ->orWhere('actividad_cnae', 'like', '%' . $search . '%')
             ->orWhere('forma_juridica', 'like', '%' . $search . '%')
             ->orWhere('objeto_social', 'like', '%' . $search . '%')->orderBy('denominacion', 'asc');
-        $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas');
+        $empresas = Empresa::search(request('search'))->cursorPaginate(15)->fragment('empresas')->orderBy('denominacion');
         return view('empresas.show')
-			->with('empresas', $empresas)
+            ->with('empresas', $empresas)
             ->with('empresa', $empresa)
             ->with('search', $search);
     }
