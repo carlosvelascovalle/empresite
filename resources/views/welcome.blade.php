@@ -83,12 +83,12 @@
                                                             <li class="company-type full-time"style="width:max-content">
                                                                 {{ $empresa->provincia }} </li>
                                                         </ul>
-                                                        {@if ($empresa->antiguedad > 0)
+                                                        @if ($empresa->antiguedad > 0)
                                                             <span class="company-published-date date"><time
                                                                     datetime="2022-11-18">Antiguedad:
                                                                     {{ $empresa->antiguedad }}
                                                                     años</time></span>
-                                                        @endif}
+                                                        @endif
                                                     </div>
                                                 </div>
                                             </a>
