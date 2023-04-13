@@ -26,10 +26,14 @@
                                             <ul class="company-types">
                                                 <li class="provincia {{ strtolower($empresa->provincia) }}">
                                                     {{ $empresa->provincia }} </li>
-                                            </ul><span class="company-published-date date"><time
-                                                    datetime="2022-11-18">Antiguedad:
-                                                    {{ $empresa->antiguedad }}
-                                                    años</time></span>
+                                            </ul>
+                                            {@if ($empresa->antiguedad > 0)
+                                                <span class="company-published-date date"><time
+                                                        datetime="2022-11-18">Antiguedad:
+                                                        {{ $empresa->antiguedad }}
+                                                        años</time>
+                                                </span>
+                                            @endif}
                                         </div>
                                     </div>
                                 </a>
