@@ -54,11 +54,11 @@ header.site-content-page-header {
 }
 header .sticky-wrapper,
 #content {
-    max-width: 1170px !important;
+    max-width: 1400px !important;
     margin: 0 auto !important;
 }
 header .section-heder {
-    max-width: 1170px !important;
+    max-width: 1400px !important;
     margin: auto !important;
 }
 
@@ -70,7 +70,7 @@ header h2 {
 header h1 {
     margin-top: 20px !important;
 }
-@media (max-width: 1181px) {
+@media (max-width: 1399px) {
     form.search-company-form,
     header .sticky-wrapper {
         max-width: 75vw !important;
