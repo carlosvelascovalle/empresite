@@ -29,9 +29,10 @@ class EmpresasController extends Controller
             ->with('search', $search);
     }
 
-    public function show($slug, Request $request)
+    public function show($provincia, $slug, Request $request)
     {
         $empresa = Empresa::where('slug', $slug)->firstOrFail();
+        $empresa = Empresa::where('provincia', $provincia)->firstOrFail();
         $search = $request->get('search');
         $all = Empresa::where('denominacion', 'like', '%' . $search . '%')
             ->orWhere('cif', 'like', '%' . $search . '%')
