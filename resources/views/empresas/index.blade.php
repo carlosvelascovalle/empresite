@@ -9,7 +9,8 @@
                         @foreach ($empresas as $empresa)
                             <li class="company_listing type-company_listing status-publish has-post-thumbnail hentry company_listing_category-information-technology company_listing_type-full-time company_listing_salary-5000-10000 company_listing_career_level-lead company_listing_experience-6-7-years company_listing_gender-male company_listing_industry-information-technology company_listing_qualification-bachelor-degree company-type-full-time company_position_featured"
                                 data-longitude="48.379433" data-latitude="31.1655799">
-                                <a href="/{{ $empresa->provincia }}/{{ $empresa->slug }}">
+                                <a
+                                    href="/{{ str_replace(' ', '-', strtolower($empresa->provincia)) }}/{{ $empresa->slug }}">
                                     <div class="company-details">
                                         <div class="company-details-inner">
                                             <h3 class="company-listing-loop-company__title">{{ $empresa->denominacion }}
