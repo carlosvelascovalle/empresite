@@ -32,9 +32,9 @@ class EmpresasController extends Controller
     public function show($provincia, $slug, Request $request)
     {
         $provincia_slug = Str::replace(' ', '-', $provincia);
-        $provincia_slug = Str::lower($provincia_slug);
+        $provincia_lower = Str::lower($provincia_slug);
         $empresa = Empresa::where('slug', $slug)->firstOrFail();
-        $empresa = Empresa::where('provincia', $provincia_slug)->firstOrFail();
+        $empresa = Empresa::where('provincia', $provincia_lower)->firstOrFail();
         $search = $request->get('search');
         $all = Empresa::where('denominacion', 'like', '%' . $search . '%')
             ->orWhere('cif', 'like', '%' . $search . '%')
