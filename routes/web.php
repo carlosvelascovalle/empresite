@@ -13,6 +13,6 @@ Route::controller(EmpresasController::class)->group(function () {
         '/listado-de-empresas',
         'index'
     );
-    Route::get('/empresa/{slug}', 'show');
+    Route::get('/empresa/{provincia}/{slug}', 'show');
 });
 Route::get('/sitemap.xml', [SitemapController::class, 'index']);
