@@ -7,7 +7,7 @@ use App\Http\Controllers\SitemapController;
 
 
 Route::get('/', [HomeController::class, 'index']);
-
+Route::redirect('/empresa/{any}', '/', 301);
 Route::controller(EmpresasController::class)->group(function () {
     Route::get(
         '/listado-de-empresas',
