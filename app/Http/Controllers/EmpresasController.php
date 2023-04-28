@@ -31,7 +31,7 @@ class EmpresasController extends Controller
 
     public function show($provincia, $slug, Request $request)
     {
-        $provincia_slug = Str::replace(' ', '-', $provincia);
+        $provincia_slug = Str::replace('-', ' ', $provincia);
         $provincia_lower = Str::lower($provincia_slug);
         $empresa = Empresa::where('slug', $slug)->firstOrFail();
         $empresa = Empresa::where('provincia', $provincia_lower)->firstOrFail();
